@@ -79,7 +79,6 @@ class MainScreen : AppCompatActivity() {
         mTools.shareTheme(this)}
 
     override fun onBackPressed() {
-        mTools.existApp(this,findViewById(R.id.scrollViewId))}
-
-
+        mTools.existApp(this,findViewById(R.id.scrollViewId))
+    }
 }
