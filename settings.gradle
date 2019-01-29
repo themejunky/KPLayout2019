@@ -1,0 +1,1 @@
+include ':app', ':kplayout2019', ':gdx', ':gdx-backend-android', ':gdx-test', ':rippereffectsLib1.0.1', ':TJ_NotifyRating-Repeat', ':api'

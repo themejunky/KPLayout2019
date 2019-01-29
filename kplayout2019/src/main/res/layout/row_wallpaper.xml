@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="android.view.View"/>
+        <variable name="wallpapersItem" type="com.kplayout2019.model.AdsItem"/>
+        <variable name="adapter" type="com.kplayout2019.screen.wallpapers.utils.WallpapersAdapter"/>
+    </data>
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cardView"
+            card_view:cardCornerRadius="0dp"
+            card_view:cardElevation="3dp"
+            android:layout_height="340dp"
+            card_view:cardBackgroundColor="@android:color/transparent"
+            android:onClick="@{() -> adapter.onTapRow(wallpapersItem.position,wallpapersItem.image)}"
+            style="@style/ListingCardView">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+            <ImageView
+                    android:id="@+id/wallpaper"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    app:picture_url="@{wallpapersItem.image}"
+
+            />
+            <ImageView
+                    android:visibility="@{wallpapersItem.isChecked? View.VISIBLE:View.GONE}"
+                    android:id="@+id/checkImage"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/check_item"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</layout>

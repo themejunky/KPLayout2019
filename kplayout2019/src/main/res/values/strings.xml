@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ThemesKotlin</string>
+    <string name="mother_url">market://details?id=com.themejunky.keyboardplus</string>
+    <string name="name_application_to_apply">Best Keyboard</string>
+    <string name="privacy">
+        <u>Privacy Policy</u>
+    </string>
+
+    <string name="loading_ads">Please wait. Loading Ad</string>
+    <string name="theme_id">Test1</string>
+    <string name="keyboard_theme_name">Test2</string>
+    <string name="no_internet">No internet connection found!</string>
+
+
+    <!-- Privacy Policy -->
+    <string name="pp_text_1">Privacy Policy</string>
+    <string name="pp_text_2">To help us bring you more personalized content this app may collect and store your
+        device\'s Advertising ID
+    </string>
+    <string name="pp_text_3">Continue</string>
+    <string name="pp_text_4">By clicking this button you agree to this app\'s</string>
+    <string name="pp_text_5">Privacy Policy</string>
+
+
+    <string name="apply_text_1">This theme requires the above keyboard to be installed. Please download it from Google
+        Play Store.
+    </string>
+    <string name="apply_text_2">Cancel</string>
+    <string name="apply_text_3">Download</string>
+    <string name="apply_text_4">Application icon</string>
+    <string name="apply_text_5">Google Play Icon</string>
+    <string name="apply_text_10">Please download Keyboard Plus to use this theme</string>
+    <string name="apply_text_6">Please activate Keyboard Plus to use this theme</string>
+    <string name="apply_text_7">Activate</string>
+    <string name="apply_text_8">Rate Us</string>
+    <string name="apply_text_9">Our Best Themes</string>
+    <string name="apply_text">Apply Theme</string>
+    <string name="live_wallpaper">Start Live Wallpaper</string>
+    <string name="get_more">Get More Apps</string>
+    <string name="our_best">Our Best Theme</string>
+    <string name="wallpaper">Wallpaper</string>
+
+    <string name="select_wall">Select Wallpaper</string>
+
+    <string name="rate_me">Exit</string>
+    <string name="rate_message">Press Back again to leave the app</string>
+
+    <!--No Internet Connection-->
+    <string name="noInternetToast">Lipsa internet</string>
+    <string name="noInternetTitle">Ooops!</string>
+    <string name="noIntenertMessage">Lipsa conexiune internet!</string>
+    <string name="noConnection">Lipsa internet sau conexiune cu serverul !</string>
+    <string name="noInternetReload">Reincarcati</string>
+    <string name="noInternetCancel">Anuleaza</string>
+    <string name="noInternetOffLineMode">Offline Mode</string>
+
+    <!--Google Analytics -->
+    <string name="layout_event" translatable="false">Testare Analytics</string>
+
+    <!--Text Push Notification-->
+    <string name="text_push_notification_title">Please rate this app!</string>
+    <string name="text_push_notification_subtitle">Your opinion is very important to us.</string>
+</resources>

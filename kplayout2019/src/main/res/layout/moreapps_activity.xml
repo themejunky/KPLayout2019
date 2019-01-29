@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <data>
+        <import type="android.view.View"/>
+        <variable name="viewModel" type="com.kplayout2019.screen.moreapps.MoreAppsViewModel"/>
+        <variable name="activity" type="com.kplayout2019.screen.moreapps.MoreApps"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+                style="@style/MatchMatch"
+                android:id="@+id/nMoreAppsRW"
+                tools:ignore="MissingConstraints"/>
+
+        <include
+                android:visibility="gone"
+                android:id="@+id/noInternetMoreApp"
+                layout="@layout/no_internet"/>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

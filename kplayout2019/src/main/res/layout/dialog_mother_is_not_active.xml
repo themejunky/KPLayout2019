@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" style="@style/Verical.WrapWrap.White"
+        android:id="@+id/parrent"
+
+>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:scaleType="centerCrop"
+               android:contentDescription="@string/apply_text_4"
+               android:src="@drawable/banner_kplus"/>
+
+    <TextView
+            style="@style/MatchWrap.Black.14"
+            android:padding="7dp"
+            android:gravity="center"
+            android:text="@string/apply_text_6"/>
+
+    <RelativeLayout
+            style="@style/MatchWrap"
+            android:padding="10dp">
+
+        <Button
+                android:id="@+id/nView1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:background="@drawable/button_cancel"
+                android:text="@string/apply_text_2"
+                android:textColor="@drawable/button_cancel_color_press"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:ignore="RelativeOverlap"/>
+
+        <Button
+                android:id="@+id/nView2"
+                style="@style/MatchWrap.White.14"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:textColor="@drawable/button_green_color"
+                android:background="@drawable/button_green"
+                android:text="@string/apply_text_7"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

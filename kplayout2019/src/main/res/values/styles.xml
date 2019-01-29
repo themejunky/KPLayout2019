@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Verical.WrapWrap" parent="WrapWrap"> <item name="android:orientation">vertical</item> </style>
+
+    <style name="WrapWrap.White" parent="WrapWrap">  <item name="android:textColor">@color/white</item> </style>
+    <style name="MatchWrap.White" parent="MatchWrap">  <item name="android:textColor">@color/white</item> </style>
+
+    <style name="WrapWrap.Blue" parent="WrapWrap">  <item name="android:textColor">@color/blue</item> </style>
+
+    <style name="MatchWrap.Black" parent="MatchWrap">  <item name="android:textColor">@color/black</item> </style>
+    <style name="WrapWrap.Black" parent="WrapWrap">  <item name="android:textColor">@color/black</item> </style>
+
+    <style name="WrapWrap.White.14" parent="WrapWrap.White"> <item name="android:textSize">14sp</item> </style>
+    <style name="MatchWrap.White.14" parent="MatchWrap.White"> <item name="android:textSize">14sp</item> </style>
+
+
+    <style name="Verical.WrapWrap.White" parent="Verical.WrapWrap">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="MatchWrap.Black.14" parent="MatchWrap.Black"> <item name="android:textSize">14sp</item> </style>
+
+    <style name="WrapWrap.Black.14" parent="WrapWrap.Black"> <item name="android:textSize">14sp</item> </style>
+    <style name="WrapWrap.Black.20" parent="WrapWrap.Black"> <item name="android:textSize">20sp</item> </style>
+
+
+    <style name="WrapWrap.Blue.14" parent="WrapWrap.Blue"> <item name="android:textSize">14sp</item> </style>
+
+
+    <!--Buttons-->
+
+    <style name="blue_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/home_buttons_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@drawable/button_text_color_blue</item>
+        <item name="android:textSize">@dimen/home_buttons_text_size</item>
+        <item name="android:background">@drawable/buttons_blue</item>
+        <item name="android:layout_marginBottom">@dimen/home_buttons_margin_bottom</item>
+    </style>
+
+    <style name="green_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/home_buttons_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@drawable/button_text_color_green</item>
+        <item name="android:textSize">@dimen/home_buttons_text_size</item>
+        <item name="android:background">@drawable/buttons_green</item>
+        <item name="android:layout_marginBottom">@dimen/home_buttons_margin_bottom</item>
+    </style>
+
+    <style name="btnGoogleImage">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:src">@drawable/google_play</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:contentDescription">@string/apply_text_5</item>
+    </style>
+
+    <style name="btnText" parent="MatchWrap.White.14">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+
+    <style name="Cube130">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">130dp</item>
+    </style>
+
+    <style name="TextView_GB_Logo2">
+        <item name="android:layout_weight">1.7</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginRight">20sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Image_shake">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/button_share</item>
+    </style>
+
+    <style name="ListingCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/listing_image_height</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+
+    <!--No Internet Layout-->
+    <style name="noInternet_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/icon_nointernet</item>
+    </style>
+
+    <style name="noInternet_text_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/noInternet_view_margin_top</item>
+        <item name="android:textSize">@dimen/noInternet_text_size_normal</item>
+    </style>
+
+    <style name="noInternet_text_big" parent="noInternet_text_normal">
+        <item name="android:textSize">@dimen/noInternet_text_size_big</item>
+    </style>
+
+    <style name="noInternet_btn_reload">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/noInternet_text_size_normal</item>
+        <item name="android:paddingTop">@dimen/noInternet_button_padding_tb</item>
+        <item name="android:paddingBottom">@dimen/noInternet_button_padding_tb</item>
+        <item name="android:paddingLeft">@dimen/noInternet_button_padding_lr</item>
+        <item name="android:paddingRight">@dimen/noInternet_button_padding_lr</item>
+        <item name="android:layout_marginTop">@dimen/noInternet_view_margin_top</item>
+        <item name="android:background">@drawable/button_reload</item>
+        <item name="android:text">@string/noInternetReload</item>
+    </style>
+
+
+
+    <style name="noInternet_btn_cancel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/noInternet_text_size_normal</item>
+        <item name="android:paddingTop">@dimen/noInternet_button_padding_tb</item>
+        <item name="android:paddingBottom">@dimen/noInternet_button_padding_tb</item>
+        <item name="android:paddingLeft">@dimen/noInternet_button_padding_lr</item>
+        <item name="android:paddingRight">@dimen/noInternet_button_padding_lr</item>
+        <item name="android:layout_marginTop">@dimen/noInternet_view_margin_top</item>
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:text">@string/noInternetCancel</item>
+    </style>
+
+
+
+
+
+    <style name="noInternet_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

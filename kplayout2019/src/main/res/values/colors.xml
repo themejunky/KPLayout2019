@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttons_blue_color">#2e6af1</color>
+    <color name="buttons_green_color">#2fc20d</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#2fc20d</color>
+    <color name="blue">#3333FF</color>
+</resources>

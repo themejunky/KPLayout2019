@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="viewModel" type="com.kplayout2019.screen.wallpapers.WallpaperViewModel"/>
+        <variable name="activity" type="com.kplayout2019.screen.wallpapers.Wallpapers"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout style="@style/MatchMatch">
+
+        <android.support.constraint.ConstraintLayout style="@style/MatchMatch" tools:ignore="MissingConstraints">
+            <android.support.v7.widget.RecyclerView
+                    style="@style/MatchMatch"
+                    android:id="@+id/nWallpaperRW"
+                    tools:ignore="MissingConstraints"/>
+
+
+            <android.support.constraint.ConstraintLayout
+                    android:id="@+id/nButtonSelectWall"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    tools:ignore="MissingConstraints"
+                    android:onClick="@{() -> activity.setWallpaper()}"
+                    android:background="@drawable/unselected_button">
+
+                <TextView
+                        style="@style/WrapWrap"
+                        android:text="@string/select_wall"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+
+                />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <include
+                android:visibility="gone"
+                android:id="@+id/noInternetWall"
+                layout="@layout/no_internet"/>
+    </android.support.constraint.ConstraintLayout>
+</layout>

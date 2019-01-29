@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_buttons_height">40dp</dimen>
+    <dimen name="home_buttons_text_size">18sp</dimen>
+    <dimen name="home_buttons_margin_bottom">5dp</dimen>
+    <dimen name="listing_image_height">200dp</dimen>
+
+    <!-- NoInternet Layout -->
+    <dimen name="noInternet_view_margin_top">10dp</dimen>
+    <dimen name="noInternet_text_size_normal">18sp</dimen>
+    <dimen name="noInternet_text_size_big">40sp</dimen>
+    <dimen name="noInternet_button_padding_tb">15dp</dimen>
+    <dimen name="noInternet_button_padding_lr">30dp</dimen>
+
+</resources>
