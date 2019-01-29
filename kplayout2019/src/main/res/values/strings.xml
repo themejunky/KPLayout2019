@@ -60,4 +60,8 @@
     <!--Text Push Notification-->
     <string name="text_push_notification_title">Please rate this app!</string>
     <string name="text_push_notification_subtitle">Your opinion is very important to us.</string>
+
+    <!--ID Naative Admob-->
+    <string name="id_native_admob">ca-app-pub-5322508131338449/2327351144</string>
+    <string name="subscribeToTopic">TestKP</string>
 </resources>

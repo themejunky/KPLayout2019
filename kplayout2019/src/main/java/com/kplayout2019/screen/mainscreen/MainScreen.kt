@@ -8,21 +8,20 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.kplayout2019.MainApplication
 import com.kplayout2019.R
-import com.kplayout2019.ads.ManagerNativeAdmob
 import com.kplayout2019.databinding.ActivityMainBinding
 import com.kplayout2019.screen.moreapps.MoreApps
 import com.kplayout2019.screen.wallpapers.Wallpapers
 import com.kplayout2019.utils.ApplyingTheme
 import com.kplayout2019.utils.Tools
 import com.kplayout2019.utils.ViewModelFactory
+import com.theme.junky.themeskotlin.ads.ManagerNativeAdmob
 import effects.ripper.water.themejunky.com.rippereffects.ManagerWaterEffects
 
 class MainScreen : AppCompatActivity() {
     private val mTools = Tools()
     private lateinit var mViewModel: MainScreenViewModel
     private lateinit var mBinding: ActivityMainBinding
-    private val ADMOB_AD_UNIT_ID = "ca-app-pub-5322508131338449/2327351144"
-    private val ADMOB_APP_ID = "ca-app-pub-5322508131338449~4598291267"
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,7 +41,7 @@ class MainScreen : AppCompatActivity() {
     private fun init() {
         supportActionBar?.hide()
         mTools.skakeImage(this,findViewById(R.id.nImageShake),2000,2000)
-        ManagerNativeAdmob().init(this,ADMOB_APP_ID,ADMOB_AD_UNIT_ID,findViewById(R.id.nativeAdsContainer))
+        ManagerNativeAdmob().init(this,getString(R.string.id_native_admob),findViewById(R.id.nativeAdsContainer))
 
     }
 

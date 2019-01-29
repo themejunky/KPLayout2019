@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Text Push Notification-->
+    <string name="text_push_notification_title">ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਐਪ ਨੂੰ ਰੇਟ ਕਰੋ!</string>
+    <string name="text_push_notification_subtitle">ਤੁਹਾਡੀ ਰਾਏ ਸਾਡੇ ਲਈ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹੈ</string>
+</resources>

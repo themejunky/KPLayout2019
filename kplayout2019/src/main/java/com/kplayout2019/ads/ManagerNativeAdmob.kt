@@ -1,32 +1,34 @@
-package com.kplayout2019.ads
+package com.theme.junky.themeskotlin.ads
 
 import android.app.Activity
 import android.util.Log
 import android.view.View
-import android.widget.*
+import android.widget.Button
+import android.widget.ImageView
+import android.widget.RelativeLayout
+import android.widget.TextView
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdLoader
 import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.formats.MediaView
 import com.google.android.gms.ads.formats.UnifiedNativeAd
 import com.google.android.gms.ads.formats.UnifiedNativeAdView
 import com.kplayout2019.R
 
+
 class ManagerNativeAdmob {
 
-    fun init(activity: Activity,admoAppId:String,admobAdUnit:String,containerAd:RelativeLayout) {
-        MobileAds.initialize(activity, admoAppId)
+    fun init(activity: Activity,admobAdUnit:String,containerAd:RelativeLayout) {
+        // MobileAds.initialize(activity, admoAppId)
         val builder = AdLoader.Builder(activity, admobAdUnit)
         Log.d("nativeTest","init native")
         builder.forUnifiedNativeAd { unifiedNativeAd ->
             // OnUnifiedNativeAdLoadedListener implementation.
-            val frameLayout = containerAd
             val adView = activity.layoutInflater
                 .inflate(R.layout.ad_unified, null) as UnifiedNativeAdView
             populateUnifiedNativeAdView(unifiedNativeAd, adView)
-            frameLayout.removeAllViews()
-            frameLayout.addView(adView)
+            containerAd.removeAllViews()
+            containerAd.addView(adView)
         }
 
         val adLoader = builder.withAdListener(object : AdListener() {
@@ -50,6 +52,19 @@ class ManagerNativeAdmob {
         adView.headlineView = adView.findViewById(R.id.ad_headline)
         adView.bodyView = adView.findViewById(R.id.ad_body)
         adView.iconView = adView.findViewById(R.id.ad_app_icon)
+        adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
+
+        if (nativeAd.callToAction == null) {
+
+            adView.callToActionView.visibility = View.INVISIBLE
+
+        } else {
+
+            adView.callToActionView.visibility = View.VISIBLE
+
+            (adView.callToActionView as Button).text = nativeAd.callToAction
+
+        }
 
 
         // The headline is guaranteed to be in every UnifiedNativeAd.

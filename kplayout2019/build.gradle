@@ -64,6 +64,8 @@ dependencies {
     implementation project(':rippereffectsLib1.0.1')
     implementation project(':TJ_NotifyRating-Repeat')
     implementation project(':api')
+    //Firebase
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
 }
 repositories {
     mavenCentral()

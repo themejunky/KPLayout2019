@@ -9,6 +9,7 @@ import android.os.Build
 import android.os.Handler
 import android.provider.Settings
 import android.support.design.widget.Snackbar
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.view.animation.AnimationUtils
@@ -68,9 +69,11 @@ open class Tools : AdListener() {
             if (Settings.Secure.getString(nContext.contentResolver, "default_input_method").matches("com.themejunky.keyboardplus.*".toRegex())) {
                 directApply(nContext)
             } else {
+                Log.d("afwef","0")
                 MotherIsNotActive.getInstance().init(nContext)
             }
         } else {
+            Log.d("afwef","0.0")
             MotherIsNotInstalled.getInstance().init(nContext)
         }
     }

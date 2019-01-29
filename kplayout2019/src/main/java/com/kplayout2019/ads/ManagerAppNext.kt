@@ -29,9 +29,18 @@ class ManagerAppNext private constructor() : OnAdClicked, OnAdOpened {
 
     fun init(nContext: Activity, nListener : ManagerAppNextInterface, idAppnext:String, nameLog:String) {
         this.nameLog = nameLog
+        Log.d("afwef","Appnext - init")
         /*"3cd8839d-7e84-4c69-9899-d0d17485fac8"*/
         val mInterstitialAd = Interstitial(nContext, idAppnext)
-        mInterstitialAd.loadAd()
+        Log.d("afwef","Appnext - init: idAppnext: " +idAppnext)
+        if(idAppnext.isEmpty()){
+            Log.d("afwef","Appnext - isEmpty")
+            nListener.onAppNextFailed(nContext)
+        }else{
+            Log.d("afwef","Appnext - isNotEmpty")
+            mInterstitialAd.loadAd()
+        }
+
         mInterstitialAd.isBackButtonCanClose = true
         mInterstitialAd.onAdClosedCallback = OnAdClosed {
             Log.d(nameLog,"Appnext - OnAdClosed")

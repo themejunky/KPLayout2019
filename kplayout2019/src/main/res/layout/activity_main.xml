@@ -93,7 +93,7 @@
                         app:layout_constraintTop_toBottomOf="@id/btn_wallpaper"
                         android:id="@+id/nativeAdsContainer"
                         android:layout_width="match_parent"
-                        android:layout_height="210dp"
+                        android:layout_height="200dp"
                         android:background="@drawable/loading_ad"
                         android:visibility="visible"
                         tools:ignore="MissingConstraints">

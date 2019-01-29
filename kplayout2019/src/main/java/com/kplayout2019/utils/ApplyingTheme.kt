@@ -47,6 +47,7 @@ open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobIn
     /***************SECOND MANAGER********************/
 
     private fun loadingSecondManager(nContext : Activity) {
+        Log.d("afwef","admob - loadingSecondManager")
         ManagerAppNext.getInstance().init(nContext,this,idAppnext,nameLog)
     }
 

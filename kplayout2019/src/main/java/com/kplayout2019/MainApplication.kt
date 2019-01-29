@@ -4,6 +4,7 @@ import android.app.Application
 import module.themejunky.com.tj_gae.Module_GoogleAnalyticsEvents
 
 var packageNameApp=""
+var redirectGP = ""
 
 class MainApplication: Application() {
 
