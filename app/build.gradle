@@ -30,7 +30,7 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20'
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    //implementation project(':kplayout2019')
+    implementation project(':kplayout2019')
 
   //  implementation 'com.github.themejunky:KPLayout2019:1.0.0'
 }
