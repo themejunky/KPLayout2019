@@ -6,8 +6,6 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 28
 
-
-
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 28
@@ -15,7 +13,6 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -29,11 +26,8 @@ android {
         enabled = true
     }
 
+}
 
-}
-configurations {
-    myConfig
-}
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0'
@@ -64,52 +58,13 @@ dependencies {
     implementation project(':gdx-backend-android')
     implementation project(':gdx')
     implementation project(':gdx-test')
-    implementation project(':rippereffectsLib1.0.1')
     implementation project(':TJ_NotifyRating-Repeat')
     implementation project(':api')
     //Firebase
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
-
-    myConfig fileTree(include: ['*.jar'], dir: 'libs')
-    myConfig 'com.android.support:appcompat-v7:28.0.0'
-    myConfig 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20'
-    myConfig 'com.android.support.constraint:constraint-layout:1.1.3'
-    myConfig 'com.android.support:design:28.0.0'
-    //retrofit
-    myConfig 'io.reactivex.rxjava2:rxkotlin:2.2.0'
-    myConfig 'com.squareup.retrofit2:retrofit:2.4.0'
-    myConfig 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
-    myConfig 'com.squareup.retrofit2:converter-gson:2.4.0'
-    myConfig 'com.squareup.okhttp3:logging-interceptor:3.9.0'
-    myConfig 'io.reactivex.rxjava2:rxandroid:2.0.2'
-    //admob
-    myConfig 'com.google.android.gms:play-services-ads:17.1.2'
-    //appnext
-    myConfig 'com.appnext.sdk:ads:2.4.4.472'
-    myConfig 'com.appnext.sdk:banners:2.4.2.471.2'
-    myConfig 'com.google.android.gms:play-services-location:16.0.0'
-    //Lifecycle
-    myConfig 'android.arch.lifecycle:extensions:1.1.1'
-    myConfig "android.arch.lifecycle:compiler:1.1.1"
-    //Glide
-    myConfig 'com.github.bumptech.glide:glide:4.8.0'
-    //Google Analytics
-    myConfig 'com.google.android.gms:play-services-analytics:16.0.6'
-    myConfig 'com.github.themejunky:Module_GoogleAnalyticsEvents:1.0.1'
-    myConfig project(':gdx-backend-android')
-    myConfig project(':gdx')
-    myConfig project(':gdx-test')
-    myConfig project(':rippereffectsLib1.0.1')
-    myConfig project(':TJ_NotifyRating-Repeat')
-    myConfig project(':api')
-    //Firebase
-    myConfig 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation project(':rippereffectsLib1.0.2')
 }
 repositories {
     mavenCentral()
 }
 
-task copyLibs(type: Copy) {
-    from configurations.myConfig
-    into "libs"
-}

@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.kplayout2019.MainApplication
 import com.kplayout2019.R
-import com.kplayout2019.databinding.ActivityMainBinding
+import com.kplayout2019.databinding.MainScreenBinding
 import com.kplayout2019.screen.moreapps.MoreApps
 import com.kplayout2019.screen.wallpapers.Wallpapers
 import com.kplayout2019.utils.ApplyingTheme
@@ -20,13 +20,13 @@ import effects.ripper.water.themejunky.com.rippereffects.ManagerWaterEffects
 class MainScreen : AppCompatActivity() {
     private val mTools = Tools()
     private lateinit var mViewModel: MainScreenViewModel
-    private lateinit var mBinding: ActivityMainBinding
+    private lateinit var mBinding: MainScreenBinding
 
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        mBinding = DataBindingUtil.setContentView(this, R.layout.main_screen)
         mViewModel = ViewModelProviders.of(this, ViewModelFactory()).get(MainScreenViewModel::class.java)
         mBinding.activity = this
         init()
