@@ -55,14 +55,18 @@ dependencies {
     //Google Analytics
     implementation 'com.google.android.gms:play-services-analytics:16.0.6'
     implementation 'com.github.themejunky:Module_GoogleAnalyticsEvents:1.0.1'
-    implementation project(':gdx-backend-android')
-    implementation project(':gdx')
-    implementation project(':gdx-test')
-    implementation project(':TJ_NotifyRating-Repeat')
-    implementation project(':api')
+
+    implementation project(path:':gdx-backend-android', configuration:'default')
+    implementation project(path:':gdx', configuration:'default')
+    implementation project(path:':gdx-test', configuration:'default')
+    implementation project(path:':TJ_NotifyRating-Repeat', configuration:'default')
+    implementation project(path:':api', configuration:'default')
+    implementation project(path:':rippereffectsLib1.0.2', configuration:'default')
+
+
     //Firebase
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
-    implementation project(':rippereffectsLib1.0.2')
+
 }
 repositories {
     mavenCentral()
