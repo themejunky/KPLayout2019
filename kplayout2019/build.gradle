@@ -13,12 +13,6 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
-        javaCompileOptions {
-            annotationProcessorOptions {
-                includeCompileClasspath true
-            }
-        }
     }
 
     buildTypes {
@@ -32,10 +26,6 @@ android {
         enabled = true
     }
 
-}
-
-configurations {
-    myConfig
 }
 
 dependencies {
@@ -65,34 +55,16 @@ dependencies {
     //Google Analytics
     implementation 'com.google.android.gms:play-services-analytics:16.0.6'
     implementation 'com.github.themejunky:Module_GoogleAnalyticsEvents:1.0.1'
-
-    implementation project(path:':gdx-backend-android', configuration:'default'), { transitive = true }
-    implementation project(path:':gdx', configuration:'default'), { transitive = true }
-    implementation project(path:':gdx-test', configuration:'default'), { transitive = true }
-    implementation project(path:':TJ_NotifyRating-Repeat', configuration:'default'), { transitive = true }
-    implementation project(path:':api', configuration:'default'), { transitive = true }
-    implementation project(path:':rippereffectsLib1.0.2', configuration:'default'), { transitive = true }
-
-//    myConfig project(':gdx-backend-android')
-//    myConfig project(':gdx')
-//    myConfig project(':gdx-test')
-//
-//    myConfig project(':TJ_NotifyRating-Repeat')
-//    myConfig project(':api')
-//    /myConfig project(':rippereffectsLib1.0.1')
-
+    implementation project(':gdx-backend-android')
+    implementation project(':gdx')
+    implementation project(':gdx-test')
+    implementation project(':TJ_NotifyRating-Repeat')
+    implementation project(':api')
     //Firebase
-    implementation 'com.google.firebase:firebase-messaging:17.3.4'
-
-   // annotationProcessor 'com.google.auto.value:auto-value:1.5.3'
-
+    //implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation project(':rippereffectsLib1.0.2')
 }
 repositories {
     mavenCentral()
-}
-
-task copyLibs(type: Copy) {
-    from configurations.myConfig
-    into "libs"
 }
 
