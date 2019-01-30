@@ -1,4 +1,4 @@
-package com.theme.junky.themeskotlin.service
+package com.kplayout2019.service
 
 import android.content.Intent
 import android.net.Uri

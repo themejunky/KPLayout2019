@@ -5,6 +5,8 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import com.google.firebase.FirebaseApp
+import com.google.firebase.messaging.FirebaseMessaging
 import com.kplayout2019.MainApplication
 import com.kplayout2019.R
 import com.kplayout2019.utils.Tools
@@ -17,8 +19,8 @@ class IntroPrivacyPolicy : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_intro_privacy_policy)
         init()
-//        FirebaseApp.initializeApp(this)
-//        FirebaseMessaging.getInstance().subscribeToTopic(getString(R.string.subscribeToTopic))
+        FirebaseApp.initializeApp(this)
+        FirebaseMessaging.getInstance().subscribeToTopic(getString(R.string.subscribeToTopic))
         prefs = getSharedPreferences("my_app", Context.MODE_PRIVATE)
 
         if(prefs.getBoolean("first",false)){

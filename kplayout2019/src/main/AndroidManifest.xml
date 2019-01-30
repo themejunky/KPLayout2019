@@ -46,35 +46,20 @@
         <!--PushNotification-->
 
         <service
-                android:name="com.theme.junky.ohvaz.service.MyFirebaseMessagingService">
+                android:name=".service.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>
         </service>
         <service
-                android:name="com.theme.junky.ohvaz.service.MyFirebaseInstanceIDService">
+                android:name=".service.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
 
-        <activity android:name="com.theme.junky.themeskotlin.service.RedirectGP"/>
+        <activity android:name=".service.RedirectGP"/>
 
-        <!--<receiver-->
-                <!--android:name=".receiver.KeyboardThemeReceiver"-->
-                <!--android:exported="true">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="com.themejunky.keyboardplus.plugin.KEYBOARD_THEME"/>-->
-
-                <!--<category android:name="android.intent.category.DEFAULT"/>-->
-                <!--<category android:name="android.intent.category.ALTERNATIVE"/>-->
-                <!--<category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>-->
-            <!--</intent-filter>-->
-
-            <!--<meta-data-->
-                    <!--android:name="com.themejunky.keyboardplus.plugindata.keyboardtheme"-->
-                    <!--android:resource="@xml/keyboard_themes"/>-->
-        <!--</receiver>-->
     </application>
 
 </manifest>
