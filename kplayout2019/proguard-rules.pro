@@ -33,3 +33,7 @@
 -dontwarn org.anddev.andengine.**
 -keep class com.badlogic.gdx.physics.box2d.* { *; }
 -dontwarn com.badlogic.gdx.physics.box2d.**
+
+-dontwarn android.databinding.**
+-keep class android.databinding.** { *; }
+
