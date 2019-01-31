@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/Verical.WrapWrap.White"
+        android:orientation="horizontal"
+        android:padding="20dp">
 
-</LinearLayout>
+    <ProgressBar
+            android:id="@+id/nView1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+    />
+
+    <TextView style="@style/WrapWrap.Black.14"
+              android:layout_gravity="center_vertical"
+              android:padding="5dp"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintLeft_toRightOf="@+id/nView1"
+              android:text="@string/loading_ads"/>
+
+</android.support.constraint.ConstraintLayout>
