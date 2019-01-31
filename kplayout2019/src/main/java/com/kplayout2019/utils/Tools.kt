@@ -78,9 +78,9 @@ open class Tools : AdListener() {
         }
     }
 
-    open fun directApply(nContext: Activity) {
+    open fun directApply(activity: Activity) {
 
-        val intent = nContext.packageManager.getLaunchIntentForPackage("com.themejunky.keyboardplus")
+        val intent = activity.packageManager.getLaunchIntentForPackage("com.themejunky.keyboardplus")
 
         if (intent!=null) {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
@@ -88,17 +88,17 @@ open class Tools : AdListener() {
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
 
             intent.addCategory(Intent.CATEGORY_LAUNCHER)
-            intent.putExtra("themeId", nContext.resources.getString(R.string.theme_id))
+            intent.putExtra("themeId", activity.resources.getString(R.string.theme_id))
             intent.putExtra("installed", true)
-            intent.putExtra("theme_name", nContext.resources.getString(R.string.keyboard_theme_name))
-            nContext.startActivity(intent)
+            intent.putExtra("theme_name", activity.resources.getString(R.string.keyboard_theme_name))
+            activity.startActivity(intent)
             val notifyRating =
-                Module_NotifyRating(nContext, false, RateScreenActivity::class.java, nContext.packageName, false)
+                Module_NotifyRating(activity, false, RateScreenActivity::class.java, activity.packageName, false)
             notifyRating.set_DebugMode("notifiTest")
-            notifyRating.set_HoursAndRepeateTimes(1000*60*20, 3, 1000 * 60 * 5)
+            notifyRating.set_HoursAndRepeateTimes((1000*60)*activity.resources.getInteger(R.integer.time_rate_notification), 3, 1000 * 60 * 5)
             notifyRating.set_TextAndIcon(
-                nContext.resources.getString(R.string.text_push_notification_title),
-                nContext.resources.getString(R.string.text_push_notification_subtitle),
+                activity.resources.getString(R.string.text_push_notification_title),
+                activity.resources.getString(R.string.text_push_notification_subtitle),
                 R.drawable.ic_launcher
             )
             notifyRating.start()
