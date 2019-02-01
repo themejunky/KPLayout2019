@@ -18,13 +18,12 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.ScrollView
 import android.widget.TextView
-import com.example.tj_notifyrating.Module_NotifyRating
 import com.google.android.gms.ads.AdListener
 import com.kplayout2019.R
 import com.kplayout2019.dialogs.MotherIsNotActive
 import com.kplayout2019.dialogs.MotherIsNotInstalled
-import com.kplayout2019.screen.RateScreenActivity
 import com.kplayout2019.screen.mainscreen.MainScreen
+import com.theme.junky.pushnotificationlib.ManagerPush
 import java.util.*
 
 open class Tools : AdListener() {
@@ -92,16 +91,8 @@ open class Tools : AdListener() {
             intent.putExtra("installed", true)
             intent.putExtra("theme_name", activity.resources.getString(R.string.keyboard_theme_name))
             activity.startActivity(intent)
-            val notifyRating =
-                Module_NotifyRating(activity, false, RateScreenActivity::class.java, activity.packageName, false)
-            notifyRating.set_DebugMode("notifiTest")
-            notifyRating.set_HoursAndRepeateTimes((1000*60)*activity.resources.getInteger(R.integer.time_rate_notification), 3, 1000 * 60 * 5)
-            notifyRating.set_TextAndIcon(
-                activity.resources.getString(R.string.text_push_notification_title),
-                activity.resources.getString(R.string.text_push_notification_subtitle),
-                R.drawable.ic_launcher
-            )
-            notifyRating.start()
+
+            ManagerPush().setPushNotification(true,activity.resources.getString(R.string.text_push_notification_title),activity.resources.getString(R.string.text_push_notification_subtitle),R.drawable.ic_launcher,10,120,240,"testPush")
 
         }
     }

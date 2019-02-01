@@ -58,11 +58,14 @@ dependencies {
     implementation project(':gdx-backend-android')
     implementation project(':gdx')
     implementation project(':gdx-test')
-    implementation project(':TJ_NotifyRating-Repeat')
     implementation project(':api')
     //Firebase
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation project(':rippereffectsLib1.0.2')
+
+    implementation ('com.github.themejunky:PushNotificationWorker:1.0.2') {
+        transitive=true
+    }
 }
 repositories {
     mavenCentral()
