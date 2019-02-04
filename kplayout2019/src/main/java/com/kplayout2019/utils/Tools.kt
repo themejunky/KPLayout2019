@@ -92,7 +92,8 @@ open class Tools : AdListener() {
             intent.putExtra("theme_name", activity.resources.getString(R.string.keyboard_theme_name))
             activity.startActivity(intent)
 
-            ManagerPush().setPushNotification(true,activity.resources.getString(R.string.text_push_notification_title),activity.resources.getString(R.string.text_push_notification_subtitle),R.drawable.ic_launcher,10,120,240,"testPush")
+            ManagerPush().setPushNotification(true,activity.resources.getString(R.string.text_push_notification_title),activity.resources.getString(R.string.text_push_notification_subtitle),R.drawable.ic_launcher,
+                R.integer.time_rate_notification1.toLong(), R.integer.time_rate_notification2.toLong(),R.integer.time_rate_notification3.toLong(),"testPush")
 
         }
     }
