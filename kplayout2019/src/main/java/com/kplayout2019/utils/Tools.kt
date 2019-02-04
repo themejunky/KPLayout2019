@@ -24,6 +24,7 @@ import com.kplayout2019.dialogs.MotherIsNotActive
 import com.kplayout2019.dialogs.MotherIsNotInstalled
 import com.kplayout2019.screen.mainscreen.MainScreen
 import com.theme.junky.pushnotificationlib.ManagerPush
+import java.security.AccessController.getContext
 import java.util.*
 
 open class Tools : AdListener() {
@@ -92,8 +93,9 @@ open class Tools : AdListener() {
             intent.putExtra("theme_name", activity.resources.getString(R.string.keyboard_theme_name))
             activity.startActivity(intent)
 
+            Log.d("testPush", activity.resources.getInteger(R.integer.time_rate_notification1).toString())
             ManagerPush().setPushNotification(true,activity.resources.getString(R.string.text_push_notification_title),activity.resources.getString(R.string.text_push_notification_subtitle),R.drawable.ic_launcher,
-                R.integer.time_rate_notification1.toLong(), R.integer.time_rate_notification2.toLong(),R.integer.time_rate_notification3.toLong(),"testPush")
+                activity.resources.getInteger(R.integer.time_rate_notification1).toLong(), activity.resources.getInteger(R.integer.time_rate_notification2).toLong(),activity.resources.getInteger(R.integer.time_rate_notification3).toLong(),"testPush")
 
         }
     }
