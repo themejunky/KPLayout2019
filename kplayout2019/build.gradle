@@ -63,7 +63,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation project(':rippereffectsLib1.0.2')
 
-    implementation ('com.github.themejunky:PushNotificationWorker:1.0.2') {
+    implementation ('com.github.themejunky:PushNotificationWorker:1.0.4') {
         transitive=true
     }
 }
