@@ -6,9 +6,7 @@ import android.databinding.DataBindingUtil
 import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import com.kplayout2019.MainApplication
-import com.kplayout2019.ManagerLayout
 import com.kplayout2019.R
 import com.kplayout2019.databinding.MainScreenBinding
 import com.kplayout2019.screen.moreapps.MoreApps
@@ -19,7 +17,7 @@ import com.kplayout2019.utils.ViewModelFactory
 import com.theme.junky.themeskotlin.ads.ManagerNativeAdmob
 import effects.ripper.water.themejunky.com.rippereffects.ManagerWaterEffects
 
-class MainScreen : AppCompatActivity() {
+class MainScreenLibrary : AppCompatActivity() {
     private val mTools = Tools()
     private lateinit var mViewModel: MainScreenViewModel
     private lateinit var mBinding: MainScreenBinding
@@ -28,7 +26,7 @@ class MainScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = DataBindingUtil.setContentView(this, R.layout.main_screen)
+        mBinding = DataBindingUtil.setContentView(this, R.layout.main_screenLibrary)
         mViewModel = ViewModelProviders.of(this, ViewModelFactory()).get(MainScreenViewModel::class.java)
         mBinding.activity = this
         init()

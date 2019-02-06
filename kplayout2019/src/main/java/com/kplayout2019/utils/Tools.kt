@@ -22,9 +22,8 @@ import com.google.android.gms.ads.AdListener
 import com.kplayout2019.R
 import com.kplayout2019.dialogs.MotherIsNotActive
 import com.kplayout2019.dialogs.MotherIsNotInstalled
-import com.kplayout2019.screen.mainscreen.MainScreen
+import com.kplayout2019.screen.mainscreen.MainScreenLibrary
 import com.theme.junky.pushnotificationlib.ManagerPush
-import java.security.AccessController.getContext
 import java.util.*
 
 open class Tools : AdListener() {
@@ -58,7 +57,7 @@ open class Tools : AdListener() {
     }
 
     open fun redirectLayout(nActivity : Activity) {
-        val intent = Intent(nActivity, MainScreen::class.java)
+        val intent = Intent(nActivity, MainScreenLibrary::class.java)
         nActivity.startActivity(intent)
         nActivity.finish()
     }
