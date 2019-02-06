@@ -6,7 +6,9 @@ import android.databinding.DataBindingUtil
 import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import com.kplayout2019.MainApplication
+import com.kplayout2019.ManagerLayout
 import com.kplayout2019.R
 import com.kplayout2019.databinding.MainScreenBinding
 import com.kplayout2019.screen.moreapps.MoreApps
@@ -30,7 +32,6 @@ class MainScreen : AppCompatActivity() {
         mViewModel = ViewModelProviders.of(this, ViewModelFactory()).get(MainScreenViewModel::class.java)
         mBinding.activity = this
         init()
-
         mViewModel.getAdsInfo()
         mViewModel.getThemeInfo()
 
