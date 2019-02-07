@@ -17,7 +17,7 @@ import com.kplayout2019.utils.ViewModelFactory
 import com.theme.junky.themeskotlin.ads.ManagerNativeAdmob
 import effects.ripper.water.themejunky.com.rippereffects.ManagerWaterEffects
 
-class MainScreen : AppCompatActivity() {
+class MainScreenLibrary : AppCompatActivity() {
     private val mTools = Tools()
     private lateinit var mViewModel: MainScreenViewModel
     private lateinit var mBinding: MainScreenBinding
@@ -26,11 +26,10 @@ class MainScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = DataBindingUtil.setContentView(this, R.layout.main_screen)
+        mBinding = DataBindingUtil.setContentView(this, R.layout.main_screenLibrary)
         mViewModel = ViewModelProviders.of(this, ViewModelFactory()).get(MainScreenViewModel::class.java)
         mBinding.activity = this
         init()
-
         mViewModel.getAdsInfo()
         mViewModel.getThemeInfo()
 

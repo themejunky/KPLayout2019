@@ -1,15 +1,21 @@
 package com.kplayout2019.utils
 
 import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.content.SharedPreferences
 import android.util.Log
 import com.appnext.ads.interstitial.Interstitial
 import com.google.android.gms.ads.InterstitialAd
+import com.kplayout2019.ManagerLayout
 import com.kplayout2019.ads.Loading
 import com.kplayout2019.ads.ManagerAdmob
 import com.kplayout2019.ads.ManagerAppNext
+import com.theme.junky.pushnotificationlib.R
 
 open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobInterface,  ManagerAppNext.ManagerAppNextInterface {
-
+    lateinit var prefs: SharedPreferences
+    private var myIntent: Intent? = null
     private var idAppnext = ""
     private var idAdmob = ""
     private var nameLog: String = ""
@@ -67,11 +73,13 @@ open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobIn
     override fun onAppNextFailed(nContext: Activity) {
         Loading.getInstance().close()
         applyTheme(nContext)
+        Log.d("afwef","2 - onAppNextFailed")
     }
 
     open fun applyTheme(nContext: Activity) {
         Log.d("afwef","2 - applyTheme")
-        Tools().applyTheme(nContext)
+        nContext.startActivity(Intent(nContext,ManagerLayout.getInstance().getMyClass()))
+
     }
 
 }
