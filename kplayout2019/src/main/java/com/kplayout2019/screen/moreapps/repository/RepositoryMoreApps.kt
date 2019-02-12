@@ -25,12 +25,19 @@ class RepositoryMoreApps(val mViewModel: MoreAppsViewModel) {
     private fun successeMoreApps(mResult: List<ThemeItem>){
         Log.d("testRetrofit","successeWallpaper")
         with (mViewModel){
+            Log.d("testRetrofit","successeWallpaper 1")
             isInternet.value = true
+            Log.d("testRetrofit","successeWallpaper 2")
             moreAppsList.clear()
+            Log.d("testRetrofit","successeWallpaper 3")
             for (mData in mResult[0].account_internal_ads){
+                Log.d("testRetrofit","successeWallpaper 4")
                 if(mData.text.contains("type_promo",true)){
+                    Log.d("testRetrofit","successeWallpaper 5")
                     moreAppsList.add(mData)
+                    Log.d("testRetrofit","successeWallpaper 6")
                     triggerMoreApps.value = true
+                    Log.d("testRetrofit","successeWallpaper 7")
                 }
             }
         }
