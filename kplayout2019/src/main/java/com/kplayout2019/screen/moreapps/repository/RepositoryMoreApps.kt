@@ -1,6 +1,8 @@
 package com.kplayout2019.screen.moreapps.repository
 
+import android.util.Log
 import com.kplayout2019.model.ThemeItem
+import com.kplayout2019.packageNameApp
 import com.kplayout2019.retrofit.RetrofitService
 import com.kplayout2019.screen.moreapps.MoreAppsViewModel
 import io.reactivex.Observable
@@ -21,7 +23,7 @@ class RepositoryMoreApps(val mViewModel: MoreAppsViewModel) {
         return getThemeConfig().subscribe(::successeMoreApps, ::erroreMoreApps)
     }
     private fun successeMoreApps(mResult: List<ThemeItem>){
-
+        Log.d("testRetrofit","successeWallpaper")
         with (mViewModel){
             isInternet.value = true
             moreAppsList.clear()
@@ -36,6 +38,8 @@ class RepositoryMoreApps(val mViewModel: MoreAppsViewModel) {
 
     }
     private fun erroreMoreApps(mError: Throwable){
+        Log.d("testRetrofit","successeWallpaper " + mError.message)
+        Log.d("testRetrofit","successeWallpaper " + mError.stackTrace)
         if (mError is IOException) {
             mViewModel.isInternet.value = false
         }

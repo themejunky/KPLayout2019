@@ -1,5 +1,6 @@
 package com.kplayout2019.screen.wallpapers.repository
 
+import android.util.Log
 import com.kplayout2019.model.ThemeItem
 import com.kplayout2019.retrofit.RetrofitService
 import com.kplayout2019.screen.wallpapers.WallpaperViewModel
@@ -23,6 +24,7 @@ class RepositoryWallpapers (val mViewModel: WallpaperViewModel){
     }
     private fun successeWallpaper(mResult: List<ThemeItem>){
 
+        Log.d("testRetrofit","successeWallpaper")
         with (mViewModel){
             wallpapersList.clear()
             mViewModel.isInternet.value = true
@@ -38,6 +40,8 @@ class RepositoryWallpapers (val mViewModel: WallpaperViewModel){
 
     }
     private fun erroreWallpaper(mError: Throwable){
+        Log.d("testRetrofit","successeWallpaper " + mError.message)
+        Log.d("testRetrofit","successeWallpaper " + mError.stackTrace)
         if (mError is IOException) {
             mViewModel.isInternet.value = false
         }
