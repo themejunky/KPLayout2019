@@ -71,9 +71,11 @@ open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobIn
     }
 
     override fun onAppNextFailed(nContext: Activity) {
+        Log.d("afwef","1 - onAppNextFailed")
         Loading.getInstance().close()
-        applyTheme(nContext)
         Log.d("afwef","2 - onAppNextFailed")
+        applyTheme(nContext)
+        Log.d("afwef","3 - onAppNextFailed")
     }
 
     open fun applyTheme(nContext: Activity) {

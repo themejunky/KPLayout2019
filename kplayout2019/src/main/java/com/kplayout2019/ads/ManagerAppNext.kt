@@ -34,8 +34,9 @@ class ManagerAppNext private constructor() : OnAdClicked, OnAdOpened {
         val mInterstitialAd = Interstitial(nContext, idAppnext)
         Log.d("afwef","Appnext - init: idAppnext: " +idAppnext)
         if(idAppnext.isEmpty()){
-            Log.d("afwef","Appnext - isEmpty")
+            Log.d("afwef","Appnext -1 isEmpty")
             nListener.onAppNextFailed(nContext)
+            Log.d("afwef","Appnext -2 isEmpty")
         }else{
             Log.d("afwef","Appnext - isNotEmpty")
             mInterstitialAd.loadAd()

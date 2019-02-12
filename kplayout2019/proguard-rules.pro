@@ -48,3 +48,6 @@
 -keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
 -dontwarn okio.**
 
+-keep class ManagerWaterEffects.* { *; }
+
+

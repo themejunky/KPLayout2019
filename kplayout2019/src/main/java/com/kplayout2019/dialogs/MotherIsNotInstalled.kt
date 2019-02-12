@@ -4,7 +4,9 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.content.Intent
 import android.net.Uri
+import android.util.Log
 import android.widget.Button
+import android.widget.LinearLayout
 import com.kplayout2019.R
 
 class MotherIsNotInstalled private constructor() {
@@ -18,14 +20,16 @@ class MotherIsNotInstalled private constructor() {
     }
 
     fun init(nActivity : Activity) : MotherIsNotInstalled {
-
+        Log.d("afwef","init 1")
         val dialogBuilder = AlertDialog.Builder(nActivity)
+        Log.d("afwef","init 2")
         val inflater = nActivity.layoutInflater
+        Log.d("afwef","init 2")
         val dialogView = inflater.inflate(R.layout.dialog_mother_is_not_installed, null)
         dialogBuilder.setView(dialogView)
         val mDialog = dialogBuilder.create()
         val button1 = dialogView.findViewById(R.id.nView1) as Button
-        val button2 = dialogView.findViewById(R.id.nView2) as Button
+        val button2 = dialogView.findViewById(R.id.nView2) as LinearLayout
         button1.setOnClickListener {mDialog.dismiss()  }
         button2.setOnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)

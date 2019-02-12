@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools" style="@style/Verical.WrapWrap.White">
 
-    <ImageView android:layout_width="300dp"
+    <ImageView android:layout_width="match_parent"
                android:layout_height="150dp"
                android:scaleType="centerCrop"
                android:contentDescription="@string/apply_text_4"
