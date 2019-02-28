@@ -7,6 +7,7 @@ import android.content.SharedPreferences
 import android.util.Log
 import com.appnext.ads.interstitial.Interstitial
 import com.google.android.gms.ads.InterstitialAd
+import com.intro.IntroTutorial
 import com.kplayout2019.ManagerLayout
 import com.kplayout2019.ads.Loading
 import com.kplayout2019.ads.ManagerAdmob
@@ -80,7 +81,9 @@ open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobIn
 
     open fun applyTheme(nContext: Activity) {
         Log.d("afwef","2 - applyTheme")
-        Tools().applyTheme(nContext)
+       // Tools().applyTheme(nContext)
+        nContext.startActivity(Intent(nContext,IntroTutorial::class.java))
+        nContext.finish()
 
     }
 

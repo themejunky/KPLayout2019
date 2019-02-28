@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/fragment_container">
+
+  <!--  <com.keyboard_theme_manager.custom_views.YellowBadge
+        android:id="@+id/mYellowBadge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#404040"
+        android:text="Home"/>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/setupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/setup_title_color"
+        android:textSize="@dimen/setup_title" />
+
+    <View
+        android:id="@+id/setupLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_below="@+id/setupTitle" />
+
+    <LinearLayout
+        android:id="@+id/enableKbButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setupLogo"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setup_button_ripple"
+        android:clickable="true"
+
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:duplicateParentState="true"
+            android:text="1"
+            android:textColor="@color/setup_button_text_selector"
+            android:textSize="@dimen/setup_button_step_text" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:duplicateParentState="true"
+            android:text="@string/setup_enable_keyboard"
+            android:textAllCaps="true"
+            android:textColor="@color/setup_button_text_selector"
+            android:textSize="@dimen/setup_button_text" />
+
+        <ImageView
+            android:id="@+id/enableKbIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activateKbButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enableKbButton"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/setup_button_ripple"
+        android:clickable="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:duplicateParentState="true"
+            android:text="2"
+            android:textColor="@color/setup_button_text_selector"
+            android:textSize="@dimen/setup_button_step_text" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:duplicateParentState="true"
+            android:text="@string/setup_activate_keyboard"
+            android:textAllCaps="true"
+            android:textColor="@color/setup_button_text_selector"
+            android:textSize="@dimen/setup_button_text" />
+
+        <ImageView
+            android:id="@+id/activateKbIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/support"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/keyboard_back" />
+
+
+
+</RelativeLayout>

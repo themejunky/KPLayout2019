@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <!--<item-->
+            <!--android:id="@+id/menu_vip"-->
+            <!--android:icon="@drawable/menu_icon_1"-->
+            <!--android:title="@string/menu_nav_1" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_languages"-->
+            <!--android:icon="@drawable/menu_icon_2"-->
+            <!--android:title="@string/menu_nav_2" />-->
+
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/menu_icon_5"
+            android:title="@string/menu_nav_3" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/menu_icon_3"
+            android:title="@string/menu_nav_4" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/menu_icon_4"
+            android:title="@string/menu_nav_5" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/menu_icon_6"
+            android:title="@string/menu_nav_6" />
+    </group>
+
+</menu>

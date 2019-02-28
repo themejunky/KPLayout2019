@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="theme_icons">3</integer>
+
+    <dimen name="keyboard_preview">140dp</dimen>
+</resources>

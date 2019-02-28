@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/emoji_1f625_support1"
+        android:duration="500"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f625_support2"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/emoji_1f625_support3"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/emoji_1f625_support4"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support5"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support6"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support7"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support8"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support9"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support10"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support11"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support12"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support13"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support14"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/emoji_1f625_support14"
+        android:duration="80" />
+
+
+</animation-list>

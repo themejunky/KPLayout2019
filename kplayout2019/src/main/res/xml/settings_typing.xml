@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="typing_vibrate_enabled"
+        android:title="Vibrate on keypress" />
+
+    <SeekBarPreference
+        android:defaultValue="20"
+        android:dependency="typing_vibrate_enabled"
+        android:key="typing_vibrate_value"
+        android:max="100" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="typing_sound_enabled"
+        android:title="Sound on keypress" />
+
+    <SeekBarPreference
+        android:defaultValue="60"
+        android:dependency="typing_sound_enabled"
+        android:key="typing_sound_value"
+        android:max="100" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="typing_number_row"
+        android:title="Number row" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="typing_predictions"
+        android:title="Enable predictions" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:dependency="typing_predictions"
+        android:key="typing_autocorrect"
+        android:title="Autocorrect" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="typing_auto_capitalize"
+        android:title="Auto capitalize" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="typing_voice_input"
+        android:title="Enable voice input" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="typing_swipe_input"
+        android:title="Enable swipe input" />
+
+</PreferenceScreen>

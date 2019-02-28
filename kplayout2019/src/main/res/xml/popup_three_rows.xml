@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:keyWidth="10%p"
+          android:keyHeight="8%p">
+    <Row android:rowEdgeFlags="top|bottom">
+        <Key android:codes="0" android:keyEdgeFlags="left"
+            app:kbd_showPopup="false"/>
+    </Row>
+    <Row>
+        <Key android:codes="0" android:keyEdgeFlags="left"
+            app:kbd_showPopup="false"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0" android:keyEdgeFlags="left"
+            app:kbd_showPopup="false"/>
+    </Row>
+</Keyboard>

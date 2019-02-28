@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+>
+    <Key
+        latin:keySpec="h"
+        latin:moreKeys="ĥ,θ" />
+    <Key
+        latin:keySpec="j"
+        latin:moreKeys="ĵ" />
+    <Key
+        latin:keySpec="k"
+        latin:moreKeys="κ" />
+    <Key
+        latin:keySpec="l"
+        latin:moreKeys="ľ,ĺ,ł,λ" />
+    <!---->
+    <!---->
+    <!--<Key-->
+        <!--latin:keySpec="h"-->
+        <!--latin:moreKeys="!text/morekeys_h" />-->
+    <!--<Key-->
+        <!--latin:keySpec="j"-->
+        <!--latin:moreKeys="!text/morekeys_j" />-->
+    <!--<Key-->
+        <!--latin:keySpec="k"-->
+        <!--latin:moreKeys="!text/morekeys_k" />-->
+    <!--<Key-->
+        <!--latin:keySpec="l"-->
+        <!--latin:moreKeys="!text/morekeys_l" />-->
+</merge>

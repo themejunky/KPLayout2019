@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mContainer"
+    style="@style/tutorial_popup_container">
+
+    <TextView
+        android:id="@+id/nSmallTitle"
+        style="@style/tutorial_popup_small_title"
+        />
+
+    <TextView
+        android:id="@+id/nBigTitle"
+        style="@style/tutorial_popup_title"
+        />
+
+    <TextView
+        android:id="@+id/nMessage"
+        style="@style/tutorial_popup_text"
+        />
+
+    <RelativeLayout
+        android:id="@+id/nBtnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/animation"
+            style="@style/tutorial_popup_btn"
+            />
+
+        <TextView
+            android:id="@+id/nBtn"
+            style="@style/tutorial_popup_btn_text"
+            />
+    </RelativeLayout>
+</LinearLayout>

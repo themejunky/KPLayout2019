@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mContainer"
+    style="@style/yellowbadge_container"
+    >
+
+    <TextView
+        android:id="@+id/mText"
+        style="@style/yellowbadge_text"
+       />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        android:defaultValue="28"
+        android:key="visual_keyboard_size"
+        android:max="100"
+        android:title="Keyboard size" />
+
+    <SeekBarPreference
+        android:defaultValue="75"
+        android:key="visual_font_size"
+        android:max="100"
+        android:title="Font size" />
+
+</PreferenceScreen>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2013, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<com.android.inputmethod.keyboard.emoji.EmojiPalettesView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mEmojiBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    style="?attr/emojiPalettesViewStyle"
+>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:background="@android:color/transparent"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/config_suggestions_strip_height"
+            style="?attr/suggestionStripViewStyle"
+            android:background="@android:color/transparent"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                >
+
+                <ImageView
+                    android:id="@+id/mBackBackroundImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/emoji_keyboard_alphabet_left"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hapticFeedbackEnabled="false"
+                    android:soundEffectsEnabled="false"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                />
+
+            </RelativeLayout>
+
+
+
+
+            <TabHost
+                android:id="@+id/emoji_category_tabhost"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+
+                >
+                <!--android:background="@drawable/dt_1_keyboard_key_preview_background"-->
+                <!--android:background="@drawable/dt_1_keyboard_key_preview_background"-->
+                <!---->
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:divider="@null" />
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:visibility="gone"
+                    android:background="@android:color/transparent"
+                    >
+                    <View
+                        android:id="@+id/emoji_keyboard_dummy"
+                        android:background="@android:color/transparent"
+                        android:layout_width="0dip"
+                        android:layout_height="0dip"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </TabHost>
+
+            <!--<include layout="@layout/suggestion_divider" />-->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/mDeleteBackroundImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+
+                <ImageButton
+                    android:id="@+id/emoji_keyboard_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="false"
+                    android:layout_centerInParent="true"
+                    android:soundEffectsEnabled="false" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+        <!-- aci is toate dandanalele din tab -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emoji_keyboard_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+      />
+
+
+        <!-- asta e view-pager-indicator.... liniuta care apre sub view pager -->
+        <com.android.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
+            android:id="@+id/emoji_category_page_id_view"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="2dip"
+            android:background="#404040"/>
+
+
+
+
+
+        <!-- linia aia de jos cu space si abc stanga-dreapta -->
+        <LinearLayout
+            android:id="@+id/emoji_action_bar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+
+            <!--<TextView-->
+                <!--android:id="@+id/emoji_keyboard_alphabet_left"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:hapticFeedbackEnabled="false"-->
+                <!--android:soundEffectsEnabled="false"-->
+                <!--/>-->
+            <RelativeLayout
+                android:id="@+id/emoji_keyboard_space"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="false"
+                android:contentDescription="@string/spoken_description_space">
+                <!-- WORKAROUND: Show the spacebar icon as a bacground of this View. -->
+                <View
+                    android:id="@+id/emoji_keyboard_space_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/emoji_keyboard_alphabet_right"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:hapticFeedbackEnabled="false"
+                android:soundEffectsEnabled="false" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</com.android.inputmethod.keyboard.emoji.EmojiPalettesView>

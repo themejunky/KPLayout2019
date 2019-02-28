@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nContainer"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+
+    <RelativeLayout
+        android:id="@+id/nAds1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:visibility="visible"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nAds2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:visibility="visible"></RelativeLayout>
+
+
+</RelativeLayout>

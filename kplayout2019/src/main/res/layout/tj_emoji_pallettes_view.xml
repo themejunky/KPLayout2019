@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    >
+    <!--config_default_keyboard_height-->
+
+    <LinearLayout
+        android:id="@+id/mContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/mBottomBar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6c000000"
+            >
+
+            <RelativeLayout
+                android:id="@+id/mButtonLeft"
+                style="@style/keyboard_emoji_buttons"
+                >
+
+                <ImageView
+                    android:id="@+id/mDone"
+                    style="@style/keyboard_emoji_buttons_icon"
+                    />
+
+
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/mHorizontalScrollView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/mCategories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_recent"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_people"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_nature"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_food"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_activity"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_travel"
+                    />
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_objects"
+                    />
+
+                <ImageView
+                    style="@style/keyboard_emoji_categ_image"
+                    android:src="@drawable/selector_emoji_symbols"
+                    />
+            </LinearLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:id="@+id/mButtonRight"
+                style="@style/keyboard_emoji_buttons"
+                >
+
+                <ImageView
+                    android:id="@+id/mBackSpace"
+                    style="@style/keyboard_emoji_buttons_icon"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emojis_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6c000000"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+

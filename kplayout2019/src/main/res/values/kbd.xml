@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="draw_key">
+        <attr name="kbd_showPopup" format="boolean"/>
+        <attr name="longPressCode" format="integer"/>
+    </declare-styleable>
+
+    <style name="KeyPreviewAnimation">
+        <item name="android:windowEnterAnimation">@anim/kbd_key_preview_show</item>
+        <item name="android:windowExitAnimation">@anim/kbd_key_preview_hide</item>
+    </style>
+
+    <dimen name="kbd_key_char_size">25dp</dimen>
+    <dimen name="kbd_key_label_size">16dp</dimen>
+    <dimen name="kbd_key_preview">30dp</dimen>
+    <dimen name="kbd_theme_horizontal_padding">8dp</dimen>
+    <dimen name="kbd_theme_vertical_padding">8dp</dimen>
+
+    <integer name="kbd_show_key_preview_animation_duration">10</integer>
+    <integer name="kbd_hide_key_preview_animation_duration">10</integer>
+
+    <integer name="keycode_shift">-1</integer>
+    <integer name="keycode_action">-4</integer>
+    <integer name="keycode_delete">-5</integer>
+    <integer name="keycode_numeric_layout">-300</integer>
+    <integer name="keycode_alphabetic_layout">-301</integer>
+    <integer name="keycode_symbols_layout">-302</integer>
+    <integer name="keycode_lang_popup">-400</integer>
+
+    <integer name="keyboard_mode_normal">1</integer>
+    <integer name="keyboard_mode_im">2</integer>
+    <integer name="keyboard_mode_url">3</integer>
+    <integer name="keyboard_mode_email">4</integer>
+
+    <string name="kbd_key_numbers">\?123</string>
+    <string name="kbd_key_letters">ABC</string>
+    <string name="kbd_key_symbols">&#61;&#47;&lt;</string>
+</resources>

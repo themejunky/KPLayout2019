@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/emoji_1f612_support1"
+        android:duration="100"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f612_support2"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/emoji_1f612_support3"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/emoji_1f612_support4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support9"
+        android:duration="200" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support14"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support15"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f612_support16"
+        android:duration="100" />
+
+</animation-list>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="settings_default_show_hint_text_value">false</bool>
+</resources>

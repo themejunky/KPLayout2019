@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_tap_00" android:duration="750" />
+    <item android:drawable="@drawable/button_tap_01" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_02" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_03" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_04" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_05" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_06" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_07" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_08" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_09" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_10" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_11" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_12" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_13" android:duration="38" />
+    <item android:drawable="@drawable/button_tap_14" android:duration="38" />
+</animation-list>

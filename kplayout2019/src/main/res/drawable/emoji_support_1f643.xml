@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support1"
+        android:duration="900"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support2"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support3"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support4"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support5"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support6"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support7"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support8"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support9"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support10"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support11"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support12"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support13"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support14"
+        android:duration="1500"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support13"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support12"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support11"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support10"
+        android:duration="60"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support9"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support8"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support7"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support6"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support5"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support4"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support3"
+        android:duration="60"/>
+
+
+    <item
+        android:drawable="@drawable/emoji_1f643_support2"
+        android:duration="60"/>
+
+
+</animation-list>

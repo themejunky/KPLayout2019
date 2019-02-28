@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_themes"
+            android:icon="@drawable/ic_menu_themes"
+            android:title="@string/drawer_themes" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_menu_favorites"
+            android:title="@string/drawer_favorites" />
+        <!-- TODO: nicetohave -->
+        <!--<item-->
+        <!--android:id="@+id/nav_personalize"-->
+        <!--android:icon="@drawable/ic_menu_personalize"-->
+        <!--android:title="@string/drawer_personalize" />-->
+        <item
+            android:id="@+id/nav_languages"
+            android:icon="@drawable/ic_menu_languages"
+            android:title="@string/drawer_languages" />
+        <!-- TODO: nicetohave -->
+        <!--<item-->
+        <!--android:id="@+id/nav_fonts"-->
+        <!--android:icon="@drawable/ic_menu_fonts"-->
+        <!--android:title="@string/drawer_fonts" />-->
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/drawer_settings" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_feedback"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="@string/drawer_feedback" />
+        <item
+            android:id="@+id/nav_rate"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_rate"
+            android:title="@string/drawer_rate" />
+        <item
+            android:id="@+id/nav_share"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/drawer_share" />
+    </group>
+
+</menu>

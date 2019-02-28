@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/emoji_1f607_frame1"
+        android:duration="400"/>
+
+    <item
+        android:drawable="@drawable/emoji_1f607_frame2"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/emoji_1f607_frame3"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/emoji_1f607_frame4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame12"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame13"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/emoji_1f607_frame14"
+        android:duration="100" />
+
+
+</animation-list>

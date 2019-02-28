@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:keyHeight="25%p"
+    android:keyWidth="10%p">
+    <Row android:rowEdgeFlags="top">
+        <Key
+            android:keyEdgeFlags="left"
+            android:keyLabel="q"
+            android:popupCharacters="@string/alternates_for_q" />
+        <Key android:keyLabel="w"
+        android:popupCharacters="@string/alternates_for_w"/>
+        <Key android:keyLabel="e"
+            android:popupCharacters="@string/alternates_for_e"
+            />
+        <Key android:keyLabel="r"
+        android:popupCharacters="@string/alternates_for_r"/>
+        <Key android:keyLabel="t"
+        android:popupCharacters="@string/alternates_for_t"/>
+        <Key android:keyLabel="y"
+        android:popupCharacters="@string/alternates_for_y"/>
+        <Key android:keyLabel="u"
+            android:popupCharacters="@string/alternates_for_u"/>
+        <Key android:keyLabel="i"
+        android:popupCharacters="@string/alternates_for_i"/>
+        <Key android:keyLabel="o"
+            android:popupCharacters="@string/alternates_for_o"/>
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="p"
+        android:popupCharacters="@string/alternates_for_p"/>
+    </Row>
+    <Row>
+        <Key
+            android:horizontalGap="5%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="a"
+        android:popupCharacters="@string/alternates_for_a"/>
+        <Key android:keyLabel="s"
+        android:popupCharacters="@string/alternates_for_s"/>
+        <Key android:keyLabel="d"
+        android:popupCharacters="@string/alternates_for_d"/>
+        <Key android:keyLabel="f"
+        android:popupCharacters="@string/alternates_for_f"/>
+        <Key android:keyLabel="g"/>
+        <Key android:keyLabel="h"
+        android:popupCharacters="@string/alternates_for_h"/>
+        <Key android:keyLabel="j"
+        android:popupCharacters="@string/alternates_for_j"/>
+        <Key android:keyLabel="k"
+        android:popupCharacters="@string/alternates_for_k"/>
+        <Key
+            android:keyEdgeFlags="right"
+            android:keyLabel="l"
+        android:popupCharacters="@string/alternates_for_l"/>
+    </Row>
+    <Row>
+        <Key
+            android:codes="@integer/keycode_shift"
+            android:keyEdgeFlags="left"
+            android:keyWidth="15%p"
+            app:kbd_showPopup="false" />
+        <Key android:keyLabel="z"
+        android:popupCharacters="@string/alternates_for_z"/>
+        <Key android:keyLabel="x"
+        android:popupCharacters="@string/alternates_for_x"/>
+        <Key android:keyLabel="c"
+        android:popupCharacters="@string/alternates_for_c"/>
+        <Key android:keyLabel="v"/>
+        android:popupCharacters="@string/alternates_for_v"/>
+        <Key android:keyLabel="b"
+        android:popupCharacters="@string/alternates_for_b"/>
+        <Key android:keyLabel="n"
+        android:popupCharacters="@string/alternates_for_n"/>
+        <Key android:keyLabel="m"
+        android:popupCharacters="@string/alternates_for_m"/>
+        <Key
+            android:codes="@integer/keycode_delete"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyWidth="15%p"
+            app:kbd_showPopup="false" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="@integer/keycode_numeric_layout"
+            android:keyEdgeFlags="left"
+            android:keyLabel="@string/kbd_key_numbers"
+            android:keyWidth="15%p"
+            app:kbd_showPopup="false" />
+        <Key android:keyLabel="," />
+        <Key android:codes="32" android:keyWidth="50%p" app:kbd_showPopup="false" app:longPressCode="@integer/keycode_lang_popup"/>
+        <Key android:keyLabel="." />
+        <Key
+            android:codes="@integer/keycode_action"
+            android:keyEdgeFlags="right"
+            android:keyWidth="15%p"
+            app:kbd_showPopup="false" />
+    </Row>
+</Keyboard>

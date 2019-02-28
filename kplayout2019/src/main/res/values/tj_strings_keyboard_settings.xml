@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyboard_settings_title_0">Personal Dictionary</string>
+    <string name="keyboard_settings_title_1">Writing Experience</string>
+    <string name="keyboard_settings_title_2">Appearance</string>
+    <string name="keyboard_settings_title_3">Sound and Vibration</string>
+    <string name="keyboard_settings_title_4">Help</string>
+
+    <string name="keyboard_settings_0_1_title">SMS</string>
+    <string name="keyboard_settings_0_1_subtitle">Synchronize with sms data base for better prediction</string>
+    <string name="keyboard_settings_0_2_title">GMAIL</string>
+    <string name="keyboard_settings_0_2_subtitle">Synchronize with your Gmail to get better prediction</string>
+    <string name="keyboard_settings_0_3_title">Suggestions</string>
+    <string name="keyboard_settings_0_3_subtitle">Show word suggestion while typing</string>
+    <string name="keyboard_settings_0_4_title">Prediction</string>
+    <string name="keyboard_settings_0_4_subtitle">Show suggested words while you type</string>
+
+    <string name="keyboard_settings_sync">Synchronize</string>
+    <string name="keyboard_share_text">Hey check out this application at : </string>
+
+
+
+    <string name="keyboard_settings_1_1_title">Keyboard Language</string>
+    <string name="keyboard_settings_1_1_subtitle">Set the language of the keyboard</string>
+    <string name="keyboard_settings_1_2_title">Add space automatically</string>
+    <string name="keyboard_settings_1_2_subtitle">Insert spaces after commans and peridos</string>
+    <string name="keyboard_settings_1_3_title">Automatically capitalize letters</string>
+    <string name="keyboard_settings_1_3_subtitle">Capitalizes letters after a period</string>
+    <string name="keyboard_settings_1_4_title">Show key pop-up</string>
+    <string name="keyboard_settings_1_4_subtitle">Use this to see what you are typing</string>
+
+    <string name="keyboard_settings_2_1_title">Theme Manager</string>
+    <string name="keyboard_settings_2_1_subtitle">Choose the best skin for you</string>
+    <string name="keyboard_settings_2_2_title">Keyboard font</string>
+    <string name="keyboard_settings_2_2_subtitle">Select your favorite font</string>
+    <string name="keyboard_settings_2_3_title">Keyboard size</string>
+    <string name="keyboard_settings_2_3_subtitle">Adjust the size of your keyboard</string>
+    <string name="keyboard_settings_2_4_title">Emoji style</string>
+    <string name="keyboard_settings_2_4_subtitle">Get the best set of emoji</string>
+    <string name="keyboard_settings_2_5_title">Colorful key pop-ups</string>
+    <string name="keyboard_settings_2_5_subtitle">Get a rainbow effect on your letters</string>
+    <string name="keyboard_settings_2_6_title">Show symbols on keys</string>
+    <string name="keyboard_settings_2_6_subtitle">View all the symbols and punctuation</string>
+    <string name="keyboard_settings_2_7_title">Larger font</string>
+    <string name="keyboard_settings_2_7_subtitle">Increase the size of the font</string>
+
+    <string name="keyboard_settings_3_1_title">Sound Gallery</string>
+    <string name="keyboard_settings_3_1_subtitle">Choose the best key sound</string>
+    <string name="keyboard_settings_3_2_title">Sound on touch</string>
+    <string name="keyboard_settings_3_2_subtitle">Activate sounds on key press</string>
+    <string name="keyboard_settings_3_3_title">Vibration on touch</string>
+    <string name="keyboard_settings_3_3_subtitle">Activate vibration on key press</string>
+    <string name="keyboard_settings_3_4_title">Vibration intensity</string>
+    <string name="keyboard_settings_3_4_subtitle">...</string>
+
+
+    <string name="keyboard_settings_4_1_title">Upgrade to full version</string>
+    <string name="keyboard_settings_4_1_subtitle">Get unlimited access to premium features</string>
+    <string name="keyboard_settings_4_2_title">Frequently asked questions</string>
+    <string name="keyboard_settings_4_2_subtitle">All your questions are answered here</string>
+    <string name="keyboard_settings_4_3_title">Send us message</string>
+    <string name="keyboard_settings_4_3_subtitle">Get in touch with us on any matter</string>
+    <string name="keyboard_settings_4_4_title">Share Keyboard</string>
+    <string name="keyboard_settings_4_4_subtitle">Send this keyboard to your friends</string>
+    <string name="keyboard_settings_4_5_title">About Keyboard</string>
+    <string name="keyboard_settings_4_5_subtitle">Build version information for debugging</string>
+
+    <string name="keyboard_settings_no_internet">No internet connection</string>
+    <string name="keyboard_settings_sync_gmail">Synchronizing GMAIL account</string>
+    <string name="keyboard_settings_sync_sms">Synchronizing SMS account</string>
+    <string name="keyboard_settings_google_play">This app requires Google Play Services. Please install Google Play Services on your device and relaunch this app</string>
+    <string name="keyboard_settings_progress">Progress will be updated in notification bar</string>
+    <string name="keyboard_settings_gmail_permision">This app needs to access your Google account (via Contacts).</string>
+    <string name="no_new_sms">There are no new sms for the last synchronization : </string>
+    <string name="no_new_gmail">There are no new emails from the last synchronization : </string>
+    <string name="please_wait">Please wait... </string>
+
+</resources>

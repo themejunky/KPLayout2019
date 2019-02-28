@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="menu_nav_1">Become VIP</string>
+    <string name="menu_nav_2">Languages</string>
+    <string name="menu_nav_3">Settings</string>
+    <string name="menu_nav_4">About</string>
+    <string name="menu_nav_5">FAQ</string>
+    <string name="menu_nav_6">Help</string>
+
+    <string name="home_sub_tabs_tutorial_step_1">Activate %1$s to use more themes!</string>
+    <string name="home_sub_tabs_tutorial_step_2">Please switch to %1$s</string>
+
+    <string name="tutorial_step_1_small">Step 1 of 2</string>
+    <string name="tutorial_step_1_big">Activate %1$s</string>
+    <string name="tutorial_step_1_message">To use any of these themes, you must set %1$s as your default keyboard</string>
+    <string name="tutorial_step_1_btn">Tap here</string>
+
+    <string name="tutorial_step_2_small">Step 2 of 2</string>
+    <string name="tutorial_step_2_big">Switch to %1$s</string>
+    <string name="tutorial_step_2_message">Please choose %1$s from the following list</string>
+    <string name="tutorial_step_2_btn">Select Keyboard</string>
+
+    <string name="about_version">Version</string>
+    <string name="about_version_code">version-code</string>
+</resources>

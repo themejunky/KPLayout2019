@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_left_1"
+        android:key="gesture_delete_last_word"
+        android:title="Delete last word" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_right_1"
+        android:key="gesture_numbers_symbols"
+        android:title="Numbers &amp; Symbols" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_up_1"
+        android:key="gesture_uppercase_letters"
+        android:title="Uppercase letters" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_down_1"
+        android:key="gesture_close_keyboard"
+        android:title="Close keyboard" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_left_2"
+        android:key="gesture_previous_theme"
+        android:title="Previous Theme" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_right_2"
+        android:key="gesture_next_theme"
+        android:title="Next Theme" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_up_2"
+        android:key="gesture_increase_keyboard_size"
+        android:title="Increase keyboard size" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_swipe_down_2"
+        android:key="gesture_decrease_keyboard_size"
+        android:title="Decrease keyboard size" />
+
+</PreferenceScreen>

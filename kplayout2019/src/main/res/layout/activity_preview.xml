@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/containerPreview"
+    android:layout_height="match_parent"
+    android:background="#a2000000"
+    >
+    <com.keyboard_theme_manager.screens.activity.previewKeyboard.CustomEditText
+        android:id="@+id/mTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tj_edittext_round_corners"
+        android:textColor="#404040"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

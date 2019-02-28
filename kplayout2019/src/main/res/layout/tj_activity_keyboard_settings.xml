@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    >
+<include android:id="@+id/bar" layout="@layout/tj_include_back" />
+
+<ScrollView
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_below="@+id/bar"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.keyboard_settings.custom_views.ItemMenu_Title
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_title_0"
+            />
+
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/sync_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_0_1_title"
+            app:subtitle="@string/keyboard_settings_0_1_subtitle"
+            app:image="@drawable/tj_kbd_settings_0_1"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/sync_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_0_2_title"
+            app:subtitle="@string/keyboard_settings_0_2_subtitle"
+            app:image="@drawable/tj_kbd_settings_0_2"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mSuggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_0_3_title"
+            app:subtitle="@string/keyboard_settings_0_3_subtitle"
+            app:image="@drawable/tj_kbd_settings_0_3"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mPrediction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_0_4_title"
+            app:subtitle="@string/keyboard_settings_0_4_subtitle"
+            app:image="@drawable/tj_kbd_settings_0_4"
+            />
+
+
+
+        <com.keyboard_settings.custom_views.ItemMenu_Title
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_title_1"
+            />
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:id="@+id/test"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_1_1_title"-->
+            <!--app:subtitle="@string/keyboard_settings_1_1_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_1_1"-->
+            <!--/>-->
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mSpaceDotPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_1_2_title"
+            app:subtitle="@string/keyboard_settings_1_2_subtitle"
+            app:image="@drawable/tj_kbd_settings_1_2"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mAutomaticallyCapitalizeLetters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_1_3_title"
+            app:subtitle="@string/keyboard_settings_1_3_subtitle"
+            app:image="@drawable/tj_kbd_settings_1_3"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mShowKeyPopUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_1_4_title"
+            app:subtitle="@string/keyboard_settings_1_4_subtitle"
+            app:image="@drawable/tj_kbd_settings_1_4"
+            />
+<!--
+        <com.keyboard_settings.custom_views.ItemMenu_Title
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_title_2"
+            />-->
+
+       <!-- <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/mThemeManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_2_1_title"
+            app:subtitle="@string/keyboard_settings_2_1_subtitle"
+            app:image="@drawable/tj_kbd_settings_2_1"
+            />-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_2_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_2_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_2"-->
+            <!--/>-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_3_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_3_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_3"-->
+            <!--/>-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_4_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_4_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_4"-->
+            <!--/>-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithCheckbox-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_5_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_5_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_5"-->
+            <!--/>-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithCheckbox-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_6_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_6_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_6"-->
+            <!--/>-->
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithCheckbox-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_2_7_title"-->
+            <!--app:subtitle="@string/keyboard_settings_2_7_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_2_7"-->
+            <!--/>-->
+
+        <com.keyboard_settings.custom_views.ItemMenu_Title
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_title_3"
+            />
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_3_1_title"-->
+            <!--app:subtitle="@string/keyboard_settings_3_1_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_3_1"-->
+            <!--/>-->
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mSound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_3_2_title"
+            app:subtitle="@string/keyboard_settings_3_2_subtitle"
+            app:image="@drawable/tj_kbd_settings_3_2"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithCheckbox
+            android:id="@+id/mVibration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_3_3_title"
+            app:subtitle="@string/keyboard_settings_3_3_subtitle"
+            app:image="@drawable/tj_kbd_settings_3_3"
+            />
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithCheckbox-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_3_4_title"-->
+            <!--app:subtitle="@string/keyboard_settings_3_4_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_3_4"-->
+            <!--/>-->
+
+        <com.keyboard_settings.custom_views.ItemMenu_Title
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_title_4"
+            />
+
+        <!--<com.keyboard_settings.custom_views.ItemMenu_WithNext-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:title="@string/keyboard_settings_4_1_title"-->
+            <!--app:subtitle="@string/keyboard_settings_4_1_subtitle"-->
+            <!--app:image="@drawable/tj_kbd_settings_4_1"-->
+            <!--/>-->
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/mFAQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_4_2_title"
+            app:subtitle="@string/keyboard_settings_4_2_subtitle"
+            app:image="@drawable/tj_kbd_settings_4_2"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/mMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_4_3_title"
+            app:subtitle="@string/keyboard_settings_4_3_subtitle"
+            app:image="@drawable/tj_kbd_settings_4_3"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/mShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_4_4_title"
+            app:subtitle="@string/keyboard_settings_4_4_subtitle"
+            app:image="@drawable/tj_kbd_settings_4_4"
+            />
+
+        <com.keyboard_settings.custom_views.ItemMenu_WithNext
+            android:id="@+id/mAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/keyboard_settings_4_5_title"
+            app:subtitle="@string/keyboard_settings_4_5_subtitle"
+            app:image="@drawable/tj_kbd_settings_4_5"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="@color/floating_button_background"
+        android:src="@drawable/tj_icon_keyboard" />
+
+</RelativeLayout>

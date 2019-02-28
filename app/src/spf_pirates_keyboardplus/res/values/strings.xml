@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Pirates KeyboardPlus Theme</string>
+    <string name="keyboard_theme_name">Pirates Theme</string>
+    <string name="keyboard_theme_description">KeyboardPlus theme example</string>
+    <string name="base_theme">BerkshireSwash-Regular.ttf</string>
+    <string name="font_name">BerkshireSwash-Regular.ttf</string>
+    <string name="theme_id">3468e270-7a77-spf-pirates-1190948a2205</string>
+    <string name="get">Please install Keyboard Plus to apply this theme</string>
+    <string name="hint_font">Oswald-Regular.ttf</string>
+    <string name="hint_font_numbers">Oswald-Regular.ttf</string>
+    <string name="hash">cf5c88678f37c3d02b66e8512e4782456b83eb6f0dcd5dae4ff34e8b594e2e56</string><string name="mother_packagename">com.themejunky.keyboardplus</string>
+ <string name="analytics_traker_id">UA-100888439-1</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="core_menu_app_name">Main Keyboard</string>
+    <string name="app_faq">http://thislooksgreat.net/keyboard-policy/</string>
+    <color name="core_menu_text_color">#404040</color>
+    <color name="core_menu_icon_color">#404040</color>
+
+    <color name="core_main_app_color">#404040</color>
+    <color name="core_bottom_bar">#ffffff</color>
+    <color name="core_gradient_start">#ffffff</color>
+    <color name="core_gradient_end">#000000</color>
+    <color name="core_default_bg">#404040</color>
+    <color name="transparent_tm">#00ffffff</color>
+
+
+    <!-- Yellow badge -->
+    <color name="yellowbadge_background">#404040</color>
+    <color name="yellowbadge_textcolor">#ffffff</color>
+
+
+    <!-- Tutorial PopUp -->
+    <color name="popup_background">#ffffff</color>
+    <color name="popup_big_text_color">#f316b8</color>
+    <color name="popup_small_text_color">#777777</color>
+    <color name="popup_text_color">#333333</color>
+
+    <!-- Floating Button -->
+    <color name="floating_button_background">#7011ff</color>
+</resources>

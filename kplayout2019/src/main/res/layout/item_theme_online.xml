@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="160dp">
+    <!--xmlns:fresco="http://schemas.android.com/apk/res-auto"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_detail"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+           />
+        <!--fresco:placeholderImage="@drawable/placeholder"-->
+        <RelativeLayout
+            android:id="@+id/layout_detail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/backgroundCard"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_liked"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/ic_item_favorite_outline" />
+
+            <TextView
+                android:id="@+id/text_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image_liked"
+                android:padding="5dp"
+                android:text="@string/dummy"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/image_installed"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_item_check_circle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
