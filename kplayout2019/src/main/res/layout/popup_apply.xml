@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+
+    <ImageView
+            android:id="@+id/image_top"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            tools:ignore="MissingConstraints"
+            android:src="@mipmap/top_bg"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+
+    />
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#fff"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@id/image_top"
+    >
+
+        <TextView
+                android:id="@+id/text1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get More Premium Themes"
+                tools:ignore="MissingConstraints"
+                android:textColor="#2e2f34"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="@font/montserrat_bold"/>
+
+        <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:text="Lots of extra features"
+                android:textColor="#2e2f34"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text1"
+        />
+
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_dw_kp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Download Red Keyboard"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@id/text2"/>
+
+
+        <TextView
+                android:id="@+id/orId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Or -"
+                android:textSize="25dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="15dp"
+                android:textColor="#b3b3b4"
+                android:fontFamily="@font/montserrat"
+                app:layout_constraintTop_toBottomOf="@id/button1"
+                tools:ignore="MissingConstraints"/>
+
+
+        <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_apply_kl"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/apply_basic_keyboard"
+                android:textColor="#2e2f34"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="15dp"
+                android:textAllCaps="false"
+                tools:ignore="MissingConstraints"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/orId"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

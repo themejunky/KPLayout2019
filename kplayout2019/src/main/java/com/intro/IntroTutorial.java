@@ -169,12 +169,16 @@ public class IntroTutorial extends AppCompatActivity implements View.OnClickList
                                     startActivity(new Intent(IntroTutorial.this,Keyboard_Settings.class));
                                     finish();
                                 }else {
-                                    activateButton.setClickable(false);
+
+                                    Intent intent = new Intent(IntroTutorial.this,Keyboard_Settings.class);
+                                    startActivity(intent);
+                                    finish();
+                                  /*  activateButton.setClickable(false);
                                     switchButton.setClickable(false);
                                     boostButton.setClickable(true);
                                     activateButton.setBackground(getResources().getDrawable(R.drawable.button_unselected));
                                     switchButton.setBackground(getResources().getDrawable(R.drawable.button_unselected));
-                                    boostButton.setBackground(getResources().getDrawable(R.drawable.button_selected));
+                                    boostButton.setBackground(getResources().getDrawable(R.drawable.button_selected));*/
                                 }
 
                             }

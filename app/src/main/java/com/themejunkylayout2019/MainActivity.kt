@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_test)
-        ManagerLayout.getInstance().redirect(this,Main2Activity::class.java)
+        ManagerLayout.getInstance().redirect(this)
+        finish()
 
     }
 }

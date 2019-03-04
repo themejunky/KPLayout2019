@@ -18,9 +18,7 @@ object  ManagerLayout {
            return instance as ManagerLayout
         }
     }
-     fun redirect(activity: Activity, redirectApplyBtn: Class<*>){
-        nameClass = redirectApplyBtn
-        Log.d("afwef"," redirect" + redirectApplyBtn)
+     fun redirect(activity: Activity){
         activity.startActivity(Intent(activity, IntroPrivacyPolicy::class.java))
     }
 

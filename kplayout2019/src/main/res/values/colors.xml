@@ -93,6 +93,7 @@
     <color name="white">#ffffff</color>
     <color name="green">#2fc20d</color>
     <color name="blue">#3333FF</color>
+    <color name="bg_badge">#f2d900</color>
 
 
 </resources>

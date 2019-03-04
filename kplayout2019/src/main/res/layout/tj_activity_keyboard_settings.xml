@@ -6,13 +6,30 @@
     android:id="@+id/container"
     >
 <include android:id="@+id/bar" layout="@layout/tj_include_back" />
+    <RelativeLayout
+            android:id="@+id/boostId"
+            android:layout_below="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_badge"
+    >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_bange_boost"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+        />
+    </RelativeLayout>
 
 <ScrollView
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    android:layout_below="@+id/bar"
+    android:layout_below="@+id/boostId"
     android:padding="10dp">
 
     <LinearLayout
@@ -41,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="@string/keyboard_settings_0_2_title"
+            android:visibility="gone"
             app:subtitle="@string/keyboard_settings_0_2_subtitle"
             app:image="@drawable/tj_kbd_settings_0_2"
             />

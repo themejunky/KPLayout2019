@@ -10,12 +10,18 @@
         <item name="android:windowActivityTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
         <item name="android:windowAllowReturnTransitionOverlap">true</item>
-        <item name="android:navigationBarColor">@color/core_bottom_bar_bg_color</item>
+        <item name="android:navigationBarColor">#7011ff</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
     <style name="SplashTheme" parent="AppTheme3">
         <item name="android:windowBackground">@drawable/splash_best</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
     </style>
 
     <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">

@@ -33,6 +33,11 @@ android {
         }
     }
 
+    lintOptions {
+        disable 'MissingTranslation'
+        checkReleaseBuilds false
+        abortOnError false
+    }
 
 
     dataBinding {

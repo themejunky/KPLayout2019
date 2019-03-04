@@ -168,9 +168,7 @@ public class KeyboardView extends View {
         mKeyPopupHintLetterPadding = keyboardViewAttr.getDimension(R.styleable.KeyboardView_keyPopupHintLetterPadding, 0.0f);
         mKeyShiftedLetterHintPadding = keyboardViewAttr.getDimension(R.styleable.KeyboardView_keyShiftedLetterHintPadding, 0.0f);
         mKeyTextShadowRadius = keyboardViewAttr.getFloat(R.styleable.KeyboardView_keyTextShadowRadius, KET_TEXT_SHADOW_RADIUS_DISABLED);
-        Log.d("Asfasdf", String.valueOf(keyboardViewAttr.getDimension(R.styleable.KeyboardView_verticalCorrection, 0.0f)));
-        //mVerticalCorrection = keyboardViewAttr.getDimension(R.styleable.KeyboardView_verticalCorrection, 0.0f);
-        mVerticalCorrection =2f;
+        mVerticalCorrection = keyboardViewAttr.getDimension(R.styleable.KeyboardView_verticalCorrection, 0.0f);
         keyboardViewAttr.recycle();
 
         final TypedArray keyAttr = context.obtainStyledAttributes(attrs,

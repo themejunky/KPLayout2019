@@ -6,8 +6,8 @@
   "theme_font_family" : "BerkshireSwash-Regular.ttf",
 
   "icons" : {
-    "ic_mic": "tab_ic_mic_quick_tabs",
-    "ic_menu": "tab_ic_menu"
+    "ic_mic": "mic_ic",
+    "ic_menu": "face_ic"
   },
 
   "key_background" : {

@@ -12,7 +12,14 @@ import com.kplayout2019.ManagerLayout
 import com.kplayout2019.ads.Loading
 import com.kplayout2019.ads.ManagerAdmob
 import com.kplayout2019.ads.ManagerAppNext
+import com.kplayout2019.dialogs.MotherIsNotActive
+import com.kplayout2019.dialogs.PopupApply
+import com.kplayout2019.isKplusOnStore
 import com.theme.junky.pushnotificationlib.R
+import java.io.IOException
+import java.net.HttpURLConnection
+import java.net.ProtocolException
+import java.net.URL
 
 open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobInterface,  ManagerAppNext.ManagerAppNextInterface {
     lateinit var prefs: SharedPreferences
@@ -80,11 +87,40 @@ open class ApplyingTheme : Loading.LoadingInterface, ManagerAdmob.ManagerAdmobIn
     }
 
     open fun applyTheme(nContext: Activity) {
-        Log.d("afwef","2 - applyTheme")
-       // Tools().applyTheme(nContext)
-        nContext.startActivity(Intent(nContext,IntroTutorial::class.java))
-        nContext.finish()
+        PopupApply.getInstance().init(nContext)
 
+        /*if(isKplusOnStore){
+            Log.d("isKplusOnStore","2 " + isKplusOnStore)
+            Tools().directApply(nContext)
+        }else{
+            Log.d("isKplusOnStore","3 " + isKplusOnStore)
+            Log.d("afwef","2 - applyTheme")
+            nContext.startActivity(Intent(nContext,IntroTutorial::class.java))
+            nContext.finish()
+        }*/
+
+    }
+
+    @Throws(IOException::class)
+    private fun availableOnGooglePlay(): Int {
+        var resultConnection=0
+        val url = URL("https://play.google.com/store/apps/details?id=com.themejunky.keyboardplus")
+        val httpURLConnection = url.openConnection() as HttpURLConnection
+        try {
+            httpURLConnection.requestMethod = "GET"
+        } catch (e: ProtocolException) {
+            e.printStackTrace()
+        }
+
+        try {
+            httpURLConnection.connect()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+
+        resultConnection = httpURLConnection.responseCode
+        Log.d("isKplusOnStore","onCreateApp " + resultConnection)
+        return resultConnection
     }
 
 }
