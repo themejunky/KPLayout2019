@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="core_menu_app_name">★Battle Keyboard★</string>
-    <string name="activate_keyboard">Activate Battle Keyboard</string>
-    <string name="switch_keyboard">Switch to Battle Keyboard</string>
+    <string name="core_menu_app_name">★Hero Keyboard★</string>
+    <string name="activate_keyboard">Activate Hero Keyboard</string>
+    <string name="switch_keyboard">Switch to Hero Keyboard</string>
 
     <string name="app_faq">http://thislooksgreat.net/keyboard-policy/</string>
     <!-- MENU -->
