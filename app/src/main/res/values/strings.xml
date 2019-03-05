@@ -3,4 +3,7 @@
     <!--ID Naative Admob-->
     <string name="id_native_admob" tools:ignore="ExtraTranslation">ca-app-pub-8562466601970101/5081303159</string>
     <string name="subscribeToTopic">TestKP2</string>
+
+  <!-- // <string name="activate_keyboard">Activate Alin Keyboard</string>
+   // <string name="switch_keyboard">Switch to Best Keyboard</string>-->
 </resources>

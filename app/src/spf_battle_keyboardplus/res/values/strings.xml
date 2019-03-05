@@ -13,7 +13,7 @@
 <string name="mother_packagename">com.themejunky.keyboardplus</string>
  <string name="analytics_traker_id">UA-100888439-1</string>
 
-    <string name="activate_keyboard_new">Activate Battle Keyboard</string>
-    <string name="switch_keyboard_new">Switch to Battle Keyboard</string>
+    <string name="activate_keyboard">Activate Battle Keyboard</string>
+     <string name="switch_keyboard">Switch to Battle Keyboard</string>
 
 </resources>
