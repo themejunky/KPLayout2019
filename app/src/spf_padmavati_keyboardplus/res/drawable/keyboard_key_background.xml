@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2013 Menny Even-Danan
+    
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ask="http://schemas.android.com/apk/res-auto">
+
+    <!-- Space key -->
+
+    <item android:drawable="@drawable/key_space_pressed" android:state_pressed="true" ask:key_type_space_alt="true" />
+    <item android:drawable="@drawable/key_space_normal" ask:key_type_space_alt="true" />
+
+
+    <!-- Symbol key -->
+    <item android:drawable="@drawable/key_symbol_pressed" android:state_pressed="true" ask:key_type_sw_symbol="true" />
+    <item android:drawable="@drawable/key_symbol_normal" ask:key_type_sw_symbol="true" />
+
+
+    <!-- Alt key -->
+    <item android:drawable="@drawable/key_alt_pressed" android:state_pressed="true" ask:key_type_alt="true" />
+    <item android:drawable="@drawable/key_alt_normal" ask:key_type_alt="true" />
+
+    <!-- Action key same as functional -->
+
+    <item android:drawable="@drawable/key_function_pressed" android:state_pressed="true" ask:key_type_action="true" />
+    <item android:drawable="@drawable/key_function_normal" ask:key_type_action="true" />
+
+    <!-- TopNav keys. -->
+
+    <item android:drawable="@drawable/key_tab_pressed" android:state_pressed="true" ask:key_type_topnav="true" />
+    <item android:drawable="@drawable/key_tab_pressed" android:state_selected="true" ask:key_type_topnav="true" />
+    <item android:drawable="@drawable/key_tab_normal" ask:key_type_topnav="true" />
+
+    <!-- TopRow keys. -->
+
+    <item android:drawable="@drawable/key_numeric_pressed" android:state_pressed="true" ask:key_type_toprow="true" />
+    <item android:drawable="@drawable/key_numeric_normal" ask:key_type_toprow="true" />
+
+    <!-- Functional keys. -->
+
+    <item android:drawable="@drawable/key_function_pressed" android:state_pressed="true" ask:key_type_function="true" />
+    <item android:drawable="@drawable/key_function_caps" android:state_selected="true" ask:key_type_function="true" />
+    <item android:drawable="@drawable/key_function_normal" ask:key_type_function="true" />
+
+    <!-- Toggle keys. Use checkable/checked state. -->
+
+    <item android:drawable="@drawable/key_function_pressed" android:state_checkable="true" android:state_checked="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/key_function_caps" android:state_selected="true" />
+    <item android:drawable="@drawable/key_function_pressed" android:state_checkable="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/key_function_normal" android:state_checkable="true" />
+
+    <!-- Normal keys -->
+    <item android:drawable="@drawable/key_q_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/key_q_normal" />
+</selector>

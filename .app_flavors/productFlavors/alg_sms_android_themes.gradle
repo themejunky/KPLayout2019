@@ -1,0 +1,274 @@
+//smsandroidthemes@yahoo.com-madalina313
+
+/*
+ -----------> replace in manifest
+ <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="54c32541b1cf4a8868955dec361ec00c90c0459f" />
+
+ -----------> replace in google-services.json
+
+
+"project_info": {
+    "project_number": "406411336601",
+    "project_id": "default-demo-app-1b083"
+  },
+
+*/
+
+alg_neon_glitter_aqua_sms_plus {
+    applicationId "com.themejunky.neonglitter.aqua.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_green_sms_plus {
+    applicationId "com.themejunky.neonglitter.green.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_pixel_sms_plus {
+    applicationId "com.themejunky.neonglitter.pixel.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_pro_sms_plus {
+    applicationId "com.themejunky.neonglitter.pro.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_theme_sms_plus {
+    applicationId "com.themejunky.neonglitter.theme.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_purple_sms_plus {
+    applicationId "com.themejunky.neonglitter.purple.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_rainbow_sms_plus {
+    applicationId "com.themejunky.neonglitter.rainbow.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_red_sms_plus {
+    applicationId "com.themejunky.neonglitter.red.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_stained_sms_plus {
+    applicationId "com.themejunky.neonglitter.stained.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neon_glitter_violet_sms_plus {
+    applicationId "com.themejunky.neonglitter.violet.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_gold_sms_plus {
+    applicationId "com.tjsms.gold.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_neonblue_sms_plus {
+    applicationId "com.tjsms.neonblue.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_heartofstone_sms_plus {
+    applicationId "com.tjsms.heartofstone.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_blue_sms_plus {
+    applicationId "com.tjsms.blue.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_mountain_sms_plus {
+    applicationId "com.tjsms.mountain.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_pink_sms_plus {
+    applicationId "com.tjsms.pink.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_red_sms_plus {
+    applicationId "com.tjsms.red2.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_spring_sms_plus {
+    applicationId "com.tjsms.spring.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_galaxy_sms_plus {
+    applicationId "com.tjsms.galaxy.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_redhd_sms_plus {
+    applicationId "com.tjsms.redhd.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_pinkbow_sms_plus {
+    applicationId "com.tjsms.pinkbow.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_pinkglitter_sms_plus {
+    applicationId "com.tjsms.pinkglitter.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_colorblue_sms_plus {
+    applicationId "com.tjsms.colorblue.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_purple_sms_plus {
+    applicationId "com.tjsms.purple.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_forsmartphone_sms_plus {
+    applicationId "com.tjsms.forsmartphone.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_grey_sms_plus {
+    applicationId "com.tjsms.grey.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_vintage_sms_plus {
+    applicationId "com.tjsms.vintage.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_leather_sms_plus {
+    applicationId "com.tjsms.leather.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_teal_sms_plus {
+    applicationId "com.tjsms.teal.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_green_sms_plus {
+    applicationId "com.tjsms.green.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_colors_sms_plus {
+    applicationId "com.tjsms.colors.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}
+alg_cute_sms_plus {
+    applicationId "com.tjsms.cute.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.algeria
+    playAccountConfig = playAccountConfigs.AlgAccountConfig
+    flavorDimensions "default"
+}

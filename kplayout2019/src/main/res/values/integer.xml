@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="time_rate_notification1">20</integer>
-    <integer name="time_rate_notification2">90</integer>
-    <integer name="time_rate_notification3">120</integer>
+    <integer name="time_rate_notification1">86400</integer>
+    <integer name="time_rate_notification2">172800</integer>
+    <integer name="time_rate_notification3">172800</integer>
 </resources>

@@ -95,9 +95,9 @@ android {
 
     productFlavors {
 
-        spf_pirates_keyboardplus {
+        spf_battle_keyboardplus {
             flavorDimensions "default"
-            applicationId "com.keyboard.plus.pirates"
+            applicationId "com.keyboardplus.themehd.battle"
             versionCode 1
             versionName '1.0'
             signingConfig signingConfigs.key_tm

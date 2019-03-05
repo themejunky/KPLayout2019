@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">13 Reasons Keyboard</string>
+    <string name="keyboard_theme_name">13 Reasons Keyboard</string>
+    <string name="theme_name">13 Reasons Keyboard</string>
+    <string name="theme_id">2fbea491-15f6-spf-reasonswhy-06e21d9dba95</string>
+    <string name="theme_description">Enjoy 13 Reasons Keyboard!</string>
+    <string name="theme_font">Sriracha-Regular.ttf</string>
+    <string name="hash">cf5c88678f37c3d02b66e8512e4782456b83eb6f0dcd5dae4ff34e8b594e2e56</string><string name="mother_packagename">com.themejunky.keyboardplus</string>
+ <string name="analytics_traker_id">UA-100888439-1</string>
+</resources>

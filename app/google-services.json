@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:653435060797:android:dd961ad7027fb4f0",
         "android_client_info": {
-          "package_name": "com.keyboard.plus.pirates"
+          "package_name": "com.keyboardplus.themehd.battle"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "653435060797-s3otfvavf76bce0mh5e9m3c7qcrdil9i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.keyboard.plus.pirates",
+            "package_name": "com.keyboardplus.themehd.battle",
             "certificate_hash": "64d62a5d4c8be5c0a4b2804c55f0571a7d0aec8c"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "653435060797-ed04fgk5agh5jk917rl2q8jpjjaf7e57.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.keyboard.plus.pirates",
+            "package_name": "com.keyboardplus.themehd.battle",
             "certificate_hash": "97872c4c6d532c589e6e98a696a9e55b8b8580ed"
           }
         }

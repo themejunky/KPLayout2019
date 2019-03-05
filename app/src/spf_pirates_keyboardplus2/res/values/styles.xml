@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ExampleKeyboardPlusIconsTheme">
+        <item name="iconKeyShift">@drawable/key_shift_set</item>
+        <item name="iconKeyBackspace">@drawable/key_delete_set</item>
+        <item name="iconKeySpace">@drawable/key_space_set</item>
+        <item name="iconKeyTab">@drawable/key_tab_set</item>
+        <item name="iconKeyAction">@drawable/key_action_set</item>
+
+        <item name="iconKeyThemeManager">@drawable/ic_themes</item>
+        <item name="iconKeyThemeManagerNew">@drawable/ic_themes_new</item>
+        <item name="iconKeyModeNumbers">@drawable/ic_numeric</item>
+        <item name="iconKeyModeEmoji">@drawable/ic_emoji</item>
+        <item name="iconKeyModeArrows">@drawable/ic_arrows</item>
+        <item name="iconKeyQuickSettings">@drawable/ic_quick_settings</item>
+        <item name="iconKeyHideKeyboard">@drawable/ic_hide_keyboard</item>
+
+        <item name="iconKeySymbolsTheme">@drawable/key_sym</item>
+        <item name="iconKeySymbolsNumbers">@drawable/key_sym</item>
+        <item name="iconKeySymbols12Theme">@drawable/key_12</item>
+        <item name="iconKeySymbols22Theme">@drawable/key_22</item>
+        <item name="iconKeyChange">@drawable/key_abc</item>
+        <item name="iconKeyAlphabet">@drawable/key_abc</item>
+	</style>
+
+    <style name="ExampleEmojiButtonTheme">
+        <item name="android:background">@drawable/btn_function</item>
+    </style>
+
+    <style name="ExampleKeyboardPlusTheme">
+        <item name="android:background">@drawable/bg_1</item>
+
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+
+        <item name="keyBackground">@drawable/btn_keyboard_key</item>
+        <item name="keyNormalHeight">@dimen/default_key_height</item>
+        <item name="keySmallHeight">@dimen/default_key_half_height</item>
+        <item name="keyLargeHeight">@dimen/default_key_tall_height</item>
+        <item name="keyIntermediateHeight">@dimen/default_key_intermediate_height</item>
+        <item name="keyHorizontalGap">@dimen/default_key_horizontal_gap</item>
+        <item name="keyVerticalGap">@dimen/default_key_vertical_gap</item>
+
+        <item name="keyTextSize">@dimen/key_text_size</item>
+        <item name="keyNumbersSize">@dimen/key_numbers_size</item>
+        <item name="keyTextSizeBig">@dimen/key_text_size_big</item>
+        <item name="keyTextStyle">normal</item>
+        <item name="keyTextColor">#ffffff</item>
+        <item name="keyFunctionalTextColor">#ffffff</item>
+        <item name="keyNumbersTextColor">#ffffff</item>
+        <item name="textFontTheme">@string/base_theme</item>
+        <item name="emojiFunctional">@drawable/btn_function</item>
+        <item name="emojiBackground">@drawable/bg_2</item>
+        <item name="quickBackground">@drawable/bg_2</item>
+        <item name="quickDivider">@color/quick_divider</item>
+        <item name="quickTitle">@color/quick_title</item>
+        <item name="quickSummary">@color/quick_summary</item>
+        <item name="quickCheck">@drawable/checkbox</item>
+        <item name="quickButton">@drawable/btn_keyboard_size</item>
+
+        <item name="emojiFontColor">@color/emoji_font</item>
+        <item name="quickFontColor">@color/quick_buttons</item>
+        <item name="iconKeyBackspaceEmoji">@drawable/sym_keyboard_delete</item>
+
+        <!-- key text shadow -->
+        <item name="shadowColor">#000000</item>
+        <item name="shadowRadius">4px</item>
+        <item name="shadowOffsetX">0px</item>
+        <item name="shadowOffsetY">0px</item>
+        <item name="backgroundDimAmount">0.7</item>
+
+        <!-- symbols on keys -->
+        <item name="hintTextColor">#ffffff</item>
+        <item name="hintTextSize">@dimen/key_hint_text_size</item>
+        <item name="hintFont">@string/hint_font</item>
+
+        <item name="hintTextNumbersSize">@dimen/key_hint_text_size_numbers</item>
+        <item name="hintTextNumbersColor">#ffffff</item>
+        <item name="hintFontNumbers">@string/hint_font_numbers</item>
+
+        <item name="hintLabelVAlign">top</item>
+        <item name="hintLabelAlign">right</item>
+
+        <item name="hintPaddingLeft">@dimen/hint_padding_left</item>
+        <item name="hintPaddingRight">@dimen/hint_padding_right</item>
+        <item name="hintPaddingTop">@dimen/hint_padding_top</item>
+        <item name="hintPaddingBottom">@dimen/hint_padding_bottom</item>
+
+        <!-- popup hints-->
+        <item name="keyPreviewBackground">@drawable/keyboard_key_feedback</item>
+        <item name="keyPreviewTextColor">#ffffff</item>
+        <item name="keyPreviewTextSize">32sp</item>
+        <item name="keyPreviewLabelTextSize">22sp</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset</item>
+    </style>
+
+    <!-- popup theme -->
+    <style name="ExampleKeyboardPlusPopupTheme" parent="@style/ExampleKeyboardPlusTheme">
+        <item name="android:background">@drawable/popup</item>
+
+        <item name="android:paddingLeft">0px</item>
+        <item name="android:paddingTop">0px</item>
+        <item name="android:paddingRight">0px</item>
+        <item name="android:paddingBottom">0px</item>
+
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup</item>
+        <item name="keyTextStyle">normal</item>
+    </style>
+</resources>

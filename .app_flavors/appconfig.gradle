@@ -1,0 +1,4 @@
+SpoofAccountConfig {
+    serviceAccountEmail = '228986743883-compute@developer.gserviceaccount.com'
+    pk12File = file('../p12keys/GooglePlayAndroidDeveloper-b400b0a78d8f.p12')
+}

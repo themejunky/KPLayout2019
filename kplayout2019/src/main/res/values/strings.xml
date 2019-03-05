@@ -643,8 +643,8 @@ Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; i
     <string name="action_settings">Settings</string>
 
     <!--Strings Tutorial-->
-    <string name="activate_keyboard">Activate Best Keyboard</string>
-    <string name="switch_keyboard">Switch to Best Keyboard</string>
+   <!-- <string name="activate_keyboard">Activate Best Keyboard</string>
+    <string name="switch_keyboard">Switch to Best Keyboard</string>-->
     <string name="boost_keyboard">Boost Performance</string>
     <string name="toast_to_theme_manager">Wait for Themes Manager</string>
 

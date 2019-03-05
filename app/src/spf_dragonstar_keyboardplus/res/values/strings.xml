@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dragon Star Keyboard Plus</string>
+	<string name="keyboard_theme_name">Dragon Star Keyboard Plus</string>
+	<string name="keyboard_theme_description">Face aby challenge with this awesome Dragon Star Keyboard Plus</string>
+    <string name="base_theme">ComickBook_Simple.ttf</string>
+    <string name="theme_id"></string>
+    <string name="hint_font">Oswald-Regular.ttf</string>
+    <string name="hint_font_numbers">Oswald-Regular.ttf</string>
+<string name="mobilecore">154R0N8QOHNSSKUMRLUW6GNKWWJOF</string>
+    <string name="hash">3d1bcdc2b621dcf6a902b47e6b67721dca09eddb1b1c56e2ce658572cd2ba67e</string><string name="mother_packagename">com.themejunky.keyboardplus</string>
+ <string name="analytics_traker_id">UA-100888439-1</string>
+</resources>

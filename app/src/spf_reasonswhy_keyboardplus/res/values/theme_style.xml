@@ -1,0 +1,57 @@
+<resources>
+    <style name="ThemeStyle" parent="@style/BaseTheme">
+        <item name="android:background">@drawable/keyboard_background</item>
+        <item name="keyVerticalGap">@dimen/key_vertical_gap</item>
+        <item name="keyHorizontalGap">@dimen/key_horizontal_gap</item>
+        <item name="keyBackground">@drawable/keyboard_key_background</item>
+        <item name="keyPreviewBackground">@drawable/keyboard_key_preview_background</item>
+        <item name="suggestionBackgroundImage">@drawable/keyboard_suggestion_background</item>
+        <item name="suggestionDividerImage">@drawable/keyboard_suggestions_divider</item>
+
+        <item name="textFontTheme">@string/theme_font</item>
+        <item name="keyTextColor">@color/key_text_color</item>
+        <item name="keyboardNameTextColor">@color/key_name_color</item>
+        <item name="keyPreviewTextColor">@color/key_preview_text_color</item>
+        <item name="suggestionNormalTextColor">@color/candidate_normal</item>
+
+        <item name="hintTextSize">0px</item>
+
+        <item name="keySpace">@drawable/key_space</item>
+        <item name="keyNormal">@drawable/key_normal</item>
+        <item name="keyTopRow">@drawable/key_top_row</item>
+        <item name="keyTopNav">@drawable/key_top_nav</item>
+        <item name="keyAction">@drawable/key_action</item>
+        <item name="altKey">@drawable/key_functional</item>
+        <item name="symbolKey">@drawable/key_functional</item>
+        <item name="keyFunctional_padding">@drawable/key_functional</item>
+
+    </style>
+
+
+    <style name="ThemeIconStyle" parent="@style/BaseKeyIconTheme">
+        <item name="iconKeyShift">@drawable/key_shift_set</item>
+        <item name="iconKeyControl">@drawable/key_control_set</item>
+        <item name="iconKeyBackspace">@drawable/ic_key_backspace</item>
+        <item name="iconKeySpace">@drawable/ic_key_space</item>
+        <item name="iconKeyTab">@drawable/sym_keyboard_tab</item>
+        <item name="iconKeyCancel">@drawable/sym_keyboard_cancel</item>
+
+        <item name="iconKeyAction">@drawable/key_action_set</item>
+        <item name="iconKeyMic">@drawable/ic_key_mic</item>
+
+        <item name="iconKeyThemeManager">@drawable/tab_ic_theme_manager</item>
+        <item name="iconKeyModeNumbers">@drawable/tab_ic_num</item>
+        <item name="iconKeyModeEmoji">@drawable/tab_ic_emoji</item>
+        <item name="iconKeyModeMic">@drawable/tab_ic_mic_quick_tabs</item>
+        <item name="iconKeyModeAd">@drawable/tab_ic_ads</item>
+        <item name="iconKeyQuickSettings">@drawable/tab_ic_menu</item>
+    </style>
+
+    <style name="ThemePopupStyle" parent="@style/PopupBaseTheme">
+        <item name="android:background">@drawable/keyboard_key_preview_background</item>
+        <item name="keyBackground">@drawable/key_popup_background</item>
+        <item name="keyTextStyle">normal</item>
+        <item name="shadowRadius">0px</item>
+    </style>
+
+</resources>

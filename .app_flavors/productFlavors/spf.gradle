@@ -1,0 +1,174 @@
+// user: studioteam6@yahoo.com  pass: 7nYC(-w5'Wj~'->x
+
+/*<meta-data
+android:name="io.fabric.ApiKey"
+android:value="b071adec1b85a4f7d1d5cd84ba2b315917858e19" />*/
+
+spf_battle_keyboardplus {
+    applicationId "com.keyboardplus.themehd.battle"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_beauty_keyboardplus {
+    applicationId "com.keyboardplus.themehd.beauty"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_carpool_keyboardplus {
+    applicationId "com.keyboardplus.themehd.carpool"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_dragonstar_keyboardplus {
+    applicationId "com.keyboardplus.themehd.dragonstar"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_flash_keyboardplus {
+    applicationId "com.keyboardplus.themehd.flash"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_hero_keyboardplus {
+    applicationId "com.keyboardplus.themehd.hero"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_justice_keyboardplus {
+    applicationId "com.keyboardplus.themehd.justice"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_karaoke_keyboardplus {
+    applicationId "com.keyboardplus.themehd.karaoke"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_kingmonsterapp_keyboardplus {
+    applicationId "com.keyboardplus.themehd.kingmonster"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_kingofwar_keyboardplus {
+    applicationId "com.keyboardplus.themehd.kingofwar"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_madpiggies_keyboardplus {
+    applicationId "com.keyboardplus.themehd.madpiggies"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_monster_keyboardplus {
+    applicationId "com.keyboardplus.themehd.monster"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_padmavati_keyboardplus {
+    applicationId "com.keyboardplus.themehd.padmavati"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_pirates_keyboardplus {
+    applicationId "com.keyboardplus.themehd.pirates"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_reasonswhy_keyboardplus {
+    applicationId "com.keyboardplus.themehd.reasonswhy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_redhero_keyboardplus {
+    applicationId "com.keyboardplus.themehd.redhero"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_retro_keyboardplus {
+    applicationId "com.keyboardplus.themehd.retro"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_spider_keyboardplus {
+    applicationId "com.keyboardplus.themehd.spider"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_steelblades_keyboardplus {
+    applicationId "com.keyboardplus.themehd.steelblades"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_war_keyboardplus {
+    applicationId "com.keyboardplus.themehd.war"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}
+spf_warriorwoman_keyboardplus {
+    applicationId "com.keyboardplus.themehd.warriorwoman"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spoofkey
+    playAccountConfig = playAccountConfigs.SpoofAccountConfig
+    flavorDimensions "default"
+}

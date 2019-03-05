@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/aapt">
+
+    <!-- Functional keys. -->
+
+    <item android:drawable="@drawable/key_function_pressed" android:state_pressed="true" kplus:key_type_function="true" />
+    <item android:drawable="@drawable/key_function_caps" android:state_selected="true" kplus:key_type_function="true" />
+    <item android:drawable="@drawable/key_function_normal" kplus:key_type_function="true" />
+
+</selector>
