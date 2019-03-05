@@ -61,7 +61,6 @@
         </RelativeLayout>
 
         <RelativeLayout
-                android:visibility="gone"
             android:id="@+id/btnBoost"
             style="@style/tutorial_button"
             android:background="@drawable/button_unselected"
