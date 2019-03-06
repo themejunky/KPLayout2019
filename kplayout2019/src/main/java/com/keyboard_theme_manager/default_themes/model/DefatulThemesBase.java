@@ -6,12 +6,16 @@ import android.content.res.ColorStateList;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
+import android.os.Handler;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+import android.view.inputmethod.InputMethodManager;
+import com.android.inputmethod.compat.CompatUtils;
 import com.android.inputmethod.latin.settings.Settings;
 import com.android.inputmethod.latin.settings.SettingsValues;
 import com.google.gson.Gson;
@@ -34,6 +38,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class DefatulThemesBase  {
 
     protected String DEBUG_TAG = "DefaultThemes_Default";
@@ -42,6 +47,7 @@ public class DefatulThemesBase  {
     protected int mCurrentIndexTheme = 0;
     protected List<ThemeSettings> mAllThemes = new ArrayList<>();
     protected Context mContext;
+    public static AnimationDrawable animationDrawable;
 
     protected CustomPreferences mCustomPreferences;
 
@@ -97,6 +103,21 @@ public class DefatulThemesBase  {
             mTheme.icons = new ThemeResource_Icons();
 
             mTheme.keyboardBackground = getColorOrDrawable(mSelectedTheme.keyboard_background, resources);
+            Drawable keyboardBackground =  mTheme.keyboardBackground;
+
+                final AnimationDrawable  animationDrawable = (AnimationDrawable) keyboardBackground;
+                InputMethodManager imm = (InputMethodManager) mContext.getSystemService(mContext.INPUT_METHOD_SERVICE);
+                if (imm.isActive()) {
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            Log.d("adwdadas", "start");
+                            //ToDO Start Stop Background animation
+                            animationDrawable.start();
+                        }
+                    }, 1000);
+                }
+
             mTheme.theme_preview = getColorOrDrawable(mSelectedTheme.theme_preview,resources);
 
             mTheme.icons.ic_mic = getColorOrDrawable(mSelectedTheme.icons.ic_mic, resources);

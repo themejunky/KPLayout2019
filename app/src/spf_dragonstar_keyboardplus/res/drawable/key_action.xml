@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/apk/res-auto">
-
-    <!-- Action keys. -->
-
-    <item kplus:key_type_action="true" android:state_pressed="true" android:drawable="@drawable/enter_pressed" />
-    <item kplus:key_type_action="true" android:drawable="@drawable/enter_normal" />
-</selector>

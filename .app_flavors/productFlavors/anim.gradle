@@ -1,0 +1,655 @@
+
+// user:  alexpetrescu1994@yahoo.com  pass: P@ssCriptoAes256
+
+/*<meta-data
+android:name="io.fabric.ApiKey"
+android:value="6755662bf3fe7914a09da2f8d039440a93923432" />*/
+
+anim_abstract_keyboardplus {
+    applicationId "com.keyboardplus.animated.abstract"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_autumn_keyboardplus {
+    applicationId "com.keyboardplus.animated.autumn"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_bandung_keyboardplus {
+    applicationId "com.keyboardplus.animated.bandung"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_blue_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.bluefire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_blue_keyboardplus {
+    applicationId "com.keyboardplus.animated.blue"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_blue_love_keyboardplus {
+    applicationId "com.keyboardplus.animated.bluelove"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_bubbles_keyboardplus {
+    applicationId "com.keyboardplus.animated.bubbles"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_bunny_keyboardplus {
+    applicationId "com.keyboardplus.animated.bunny"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_butterfly_keyboardplus {
+    applicationId "com.keyboardplus.animated.butterfly"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_candy_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.candyfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_candy_keyboardplus {
+    applicationId "com.keyboardplus.animated.candy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_christmas_keyboardplus {
+    applicationId "com.keyboardplus.animated.christmas"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_city_lights_keyboardplus {
+    applicationId "com.keyboardplus.animated.citylights"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_color_keyboardplus {
+    applicationId "com.keyboardplus.animated.color"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_colorflash_keyboardplus {
+    applicationId "com.keyboardplus.animated.colorflash"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_colorful_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.colorfulfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_colorful_keyboardplus {
+    applicationId "com.keyboardplus.animated.colorful"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_colors_keyboardplus {
+    applicationId "com.keyboardplus.animated.colors"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_cosmic_rain_keyboardplus {
+    applicationId "com.keyboardplus.animated.cosmicrain"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_cute_penguin_keyboardplus {
+    applicationId "com.keyboardplus.animated.cutepenguin"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_electric_keyboardplus {
+    applicationId "com.keyboardplus.animated.electric"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_electricpink_keyboardplus {
+    applicationId "com.keyboardplus.animated.electricpink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_energy_keyboardplus {
+    applicationId "com.keyboardplus.animated.energy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_fallinghearts2_keyboardplus {
+    applicationId "com.keyboardplus.animated.fallinghearts2"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_fallinghearts_keyboardplus {
+    applicationId "com.keyboardplus.animated.fallinghearts"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_fantasy_keyboardplus {
+    applicationId "com.keyboardplus.animated.fantasy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.fire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_frozennight_keyboardplus {
+    applicationId "com.keyboardplus.animated.frozennight"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_glitter_keyboardplus {
+    applicationId "com.keyboardplus.animated.glitter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_gold_glitter_keyboardplus {
+    applicationId "com.keyboardplus.animated.gold.glitter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_gold_keyboardplus {
+    applicationId "com.keyboardplus.animated.gold"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_golden_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.goldenfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_goldglitter_keyboardplus {
+    applicationId "com.keyboardplus.animated.goldglitter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_green_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.greenfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_green_keyboardplus {
+    applicationId "com.keyboardplus.animated.green"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_hearts_keyboardplus {
+    applicationId "com.keyboardplus.animated.hearts"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_hightech_keyboardplus {
+    applicationId "com.keyboardplus.animated.hightech"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_jakarta_keyboardplus {
+    applicationId "com.keyboardplus.animated.jakarta"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_kitty2_keyboardplus {
+    applicationId "com.keyboardplus.animated.kitty2"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_kitty_keyboardplus {
+    applicationId "com.keyboardplus.animated.kitty"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_lights_keyboardplus {
+    applicationId "com.keyboardplus.animated.lights"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_lion_keyboardplus {
+    applicationId "com.keyboardplus.animated.lion"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_love_hd_keyboardplus {
+    applicationId "com.keyboardplus.animated.lovehd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_love_keyboardplus {
+    applicationId "com.keyboardplus.animated.love"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_luxurious_keyboardplus {
+    applicationId "com.keyboardplus.animated.luxurious"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_neon_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.neonfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_neon_keyboardplus {
+    applicationId "com.keyboardplus.animated.neon"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_neon_lights_keyboardplus {
+    applicationId "com.keyboardplus.animated.neonlights"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_paris_keyboardplus {
+    applicationId "com.keyboardplus.animated.paris"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_pink_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.pinkfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_pink_love_keyboardplus {
+    applicationId "com.keyboardplus.animated.pinklove"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_pinkglitter_keyboardplus {
+    applicationId "com.keyboardplus.animated.pinkglitter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_pizza_keyboardplus {
+    applicationId "com.keyboardplus.animated.pizza"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_predator_keyboardplus {
+    applicationId "com.keyboardplus.animated.predator"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_purple_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.purplefire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_purple_keyboardplus {
+    applicationId "com.keyboardplus.animated.purple"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_purplehd_keyboardplus {
+    applicationId "com.keyboardplus.animated.purplehd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_rainbow_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.rainbowfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_red_fire_keyboardplus {
+    applicationId "com.keyboardplus.animated.redfire"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_romantic_sparkles_keyboardplus {
+    applicationId "com.keyboardplus.animated.romanticsparkles"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_shark_keyboardplus {
+    applicationId "com.keyboardplus.animated.shark"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_skull_keyboardplus {
+    applicationId "com.keyboardplus.animated.skull"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_skullhd_keyboardplus {
+    applicationId "com.keyboardplus.animated.skullhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_snow_keyboardplus {
+    applicationId "com.keyboardplus.animated.snow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_sound_wave_keyboardplus {
+    applicationId "com.keyboardplus.animated.soundwave"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_space_keyboardplus {
+    applicationId "com.keyboardplus.animated.space"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_storm_keyboardplus {
+    applicationId "com.keyboardplus.animated.storm"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_sunshine_keyboardplus {
+    applicationId "com.keyboardplus.animated.sunshine"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_superdog_keyboardplus {
+    applicationId "com.keyboardplus.animated.superdog"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_surabaya_keyboardplus {
+    applicationId "com.keyboardplus.animated.surabaya"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_sweet_love_keyboardplus {
+    applicationId "com.keyboardplus.animated.sweetlove"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_sweet_owls_keyboardplus {
+    applicationId "com.keyboardplus.animated.sweetowls"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_theme_keyboardplus {
+    applicationId "com.keyboardplus.animated.theme"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_unicorn_keyboardplus {
+    applicationId "com.keyboardplus.animated.unicorn"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_universe_keyboardplus {
+    applicationId "com.keyboardplus.animated.universe"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_volcano_keyboardplus {
+    applicationId "com.keyboardplus.animated.volcano"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_weather_keyboardplus {
+    applicationId "com.keyboardplus.animated.weather"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_winter_keyboardplus {
+    applicationId "com.keyboardplus.animated.winter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_winter_paris_keyboardplus {
+    applicationId "com.keyboardplus.animated.winterparis"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_yellow_keyboardplus {
+    applicationId "com.keyboardplus.animated.yellow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}
+anim_shinystars_keyboardplus {
+    applicationId "com.keyboardplus.animated.shinystars"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.anim
+    playAccountConfig = playAccountConfigs.AnimAccountConfig
+    flavorDimensions "default"
+}

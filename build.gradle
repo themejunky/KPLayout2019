@@ -29,3 +29,9 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+ext {
+
+    themeVersionCode = 59
+    themeVersionName = '5.9'
+
+}
