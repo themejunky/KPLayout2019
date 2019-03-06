@@ -1,0 +1,1168 @@
+
+// User: thememasters1@yahoo.com   Pass: F9D+)&emZ!C~^TY:
+
+/*<meta-data
+android:name="io.fabric.ApiKey"
+android:value="76aa929f54fd6204635c71a507668d869d622191" />*/
+
+
+tm_arabic_keyboardplus {
+    applicationId "com.keyboard.plus.arabic"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+    playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_alien_keyboardplus {
+    applicationId "com.keyboard.plus.alien"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_american_keyboardplus {
+    applicationId "com.keyboard.plus.american"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_app_keyboardplus {
+    applicationId "com.keyboard.plus.app"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_autumn_keyboardplus {
+    applicationId "com.keyboard.plus.autumn"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_backgrounds_keyboardplus {
+    applicationId "com.keyboard.plus.backgrounds"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_big_keyboardplus {
+    applicationId "com.keyboard.plus.big"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_bigkeys_keyboardplus {
+    applicationId "com.keyboard.plus.bigkeys"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_black_keyboardplus {
+    applicationId "com.keyboard.plus.black"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_blackandyellow_keyboardplus {
+    applicationId "com.keyboard.plus.blackandyellow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_blue_keyboardplus {
+    applicationId "com.keyboard.plus.blue"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_brown_keyboardplus {
+    applicationId "com.keyboard.plus.brown"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_burgundy_keyboardplus {
+    applicationId "com.keyboard.plus.burgundy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_butterfly_keyboardplus {
+    applicationId "com.keyboard.plus.butterfly"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_calendar_keyboardplus {
+    applicationId "com.keyboard.plus.calendar"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_cashmere_keyboardplus {
+    applicationId "com.keyboard.plus.cashmere"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_cheetah_keyboardplus {
+    applicationId "com.keyboard.plus.cheetah"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_cheetahhd_keyboardplus {
+    applicationId "com.keyboard.plus.cheetahhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_chocolate_keyboardplus {
+    applicationId "com.keyboard.plus.chocolate"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_christmas_keyboardplus {
+    applicationId "com.keyboard.plus.christmas"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_color2_keyboardplus {
+    applicationId "com.keyboard.plus.color2"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_color_keyboardplus {
+    applicationId "com.keyboard.plus.color"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colorblue_keyboardplus {
+    applicationId "com.keyboard.plus.colorblue"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colored_keyboardplus {
+    applicationId "com.keyboard.plus.colored"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colorful_keyboardplus {
+    applicationId "com.keyboard.plus.colorful"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colorhd_keyboardplus {
+    applicationId "com.keyboard.plus.colorhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colorrainbow_keyboardplus {
+    applicationId "com.keyboard.plus.colorrainbow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_colors_keyboardplus {
+    applicationId "com.keyboard.plus.colors"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_crazycolored_keyboardplus {
+    applicationId "com.keyboard.plus.crazycolored"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_customizer_keyboardplus {
+    applicationId "com.keyboard.plus.customizer"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_design_keyboardplus {
+    applicationId "com.keyboard.plus.design"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_designer_keyboardplus {
+    applicationId "com.keyboard.plus.designer"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_diamonds_keyboardplus {
+    applicationId "com.keyboard.plus.diamonds"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_earth_keyboardplus {
+    applicationId "com.keyboard.plus.earth"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_electric_keyboardplus {
+    applicationId "com.keyboard.plus.electric"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_emoji2_keyboardplus {
+    applicationId "com.keyboard.plus.emoji2"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_emoji_keyboardplus {
+    applicationId "com.keyboard.plus.emoji"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_emojis_keyboardplus {
+    applicationId "com.keyboard.plus.emojis"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_emoticons_keyboardplus {
+    applicationId "com.keyboard.plus.emoticons"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_english_keyboardplus {
+    applicationId "com.keyboard.plus.english"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_fancy_keyboardplus {
+    applicationId "com.keyboard.plus.fancy"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_fast_keyboardplus {
+    applicationId "com.keyboard.plus.fast"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_fastest_keyboardplus {
+    applicationId "com.keyboard.plus.fastest"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_flame_keyboardplus {
+    applicationId "com.keyboard.plus.flame"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_flames_keyboardplus {
+    applicationId "com.keyboard.plus.flames"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_flex_keyboardplus {
+    applicationId "com.keyboard.plus.flex"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_flower_keyboardplus {
+    applicationId "com.keyboard.plus.flower"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_flowers_keyboardplus {
+    applicationId "com.keyboard.plus.flowers"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_fonts_keyboardplus {
+    applicationId "com.keyboard.plus.fonts"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_forsmartphone_keyboardplus {
+    applicationId "com.keyboard.plus.forsmartphone"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_free_keyboardplus {
+    applicationId "com.keyboard.plus.free"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_gingerbread_keyboardplus {
+    applicationId "com.keyboard.plus.gingerbread"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_glass_keyboardplus {
+    applicationId "com.keyboard.plus.glass"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_glitter_keyboardplus {
+    applicationId "com.keyboard.plus.glitter"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_glow_keyboardplus {
+    applicationId "com.keyboard.plus.glow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_glowblue_keyboardplus {
+    applicationId "com.keyboard.plus.glowblue"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_glowhd_keyboardplus {
+    applicationId "com.keyboard.plus.glowhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_gold_keyboardplus {
+    applicationId "com.keyboard.plus.gold"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_golden_keyboardplus {
+    applicationId "com.keyboard.plus.golden"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_goldtheme_keyboardplus {
+    applicationId "com.keyboard.plus.goldtheme"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_grass_keyboardplus {
+    applicationId "com.keyboard.plus.grass"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_green_keyboardplus {
+    applicationId "com.keyboard.plus.green"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_grey_keyboardplus {
+    applicationId "com.keyboard.plus.grey"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_hacker_keyboardplus {
+    applicationId "com.keyboard.plus.hacker"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_halloween_keyboardplus {
+    applicationId "com.keyboard.plus.halloween"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_halloweenhd_keyboardplus {
+    applicationId "com.keyboard.plus.halloweenhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_heaven_keyboardplus {
+    applicationId "com.keyboard.plus.heaven"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_hello_keyboardplus {
+    applicationId "com.keyboard.plus.hello"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_hindi_keyboardplus {
+    applicationId "com.keyboard.plus.hindi"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_hotpink_keyboardplus {
+    applicationId "com.keyboard.plus.hotpink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_ink_keyboardplus {
+    applicationId "com.keyboard.plus.ink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_intelligent_keyboardplus {
+    applicationId "com.keyboard.plus.intelligent"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_japanese_keyboardplus {
+    applicationId "com.keyboard.plus.japanese"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_keys_keyboardplus {
+    applicationId "com.keyboard.plus.keys"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_led_keyboardplus {
+    applicationId "com.keyboard.plus.led"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_letters_keyboardplus {
+    applicationId "com.keyboard.plus.letters"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_light_keyboardplus {
+    applicationId "com.keyboard.plus.light"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_lock_keyboardplus {
+    applicationId "com.keyboard.plus.lock"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_london_keyboardplus {
+    applicationId "com.keyboard.plus.london"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_love_keyboardplus {
+    applicationId "com.keyboard.plus.love"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_luminous_keyboardplus {
+    applicationId "com.keyboard.plus.luminous"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_music_keyboardplus {
+    applicationId "com.keyboard.plus.music"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_musical_keyboardplus {
+    applicationId "com.keyboard.plus.musical"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neon_keyboardplus {
+    applicationId "com.keyboard.plus.neon"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonblue_keyboardplus {
+    applicationId "com.keyboard.plus.neonblue"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonglow_keyboardplus {
+    applicationId "com.keyboard.plus.neonglow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neongreen_keyboardplus {
+    applicationId "com.keyboard.plus.neongreen"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonhd_keyboardplus {
+    applicationId "com.keyboard.plus.neonhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonpink_keyboardplus {
+    applicationId "com.keyboard.plus.neonpink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonpurple_keyboardplus {
+    applicationId "com.keyboard.plus.neonpurple"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonred_keyboardplus {
+    applicationId "com.keyboard.plus.neonred"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonviolet_keyboardplus {
+    applicationId "com.keyboard.plus.neonviolet"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_neonyellow_keyboardplus {
+    applicationId "com.keyboard.plus.neonyellow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_newhd_keyboardplus {
+    applicationId "com.keyboard.plus.newhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_newyear_keyboardplus {
+    applicationId "com.keyboard.plus.newyear"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_notes_keyboardplus {
+    applicationId "com.keyboard.plus.notes"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_old_keyboardplus {
+    applicationId "com.keyboard.plus.old"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_oldschool_keyboardplus {
+    applicationId "com.keyboard.plus.oldschool"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_orange_keyboardplus {
+    applicationId "com.keyboard.plus.orange"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_OSPhone_keyboardplus {
+    applicationId "com.keyboard.plus.OSPhone"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_paris_keyboardplus {
+    applicationId "com.keyboard.plus.paris"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_perfect_keyboard_plus {
+    applicationId "com.keyboard.plus.perfect"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_phone_keyboardplus {
+    applicationId "com.keyboard.plus.phone"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_piano_keyboardplus {
+    applicationId "com.keyboard.plus.piano"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pink_keyboardplus {
+    applicationId "com.keyboard.plus.pink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pinkblack_keyboardplus {
+    applicationId "com.keyboard.plus.pinkblack"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pinkbow_keyboardplus {
+    applicationId "com.keyboard.plus.pinkbow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pinkhd_keyboardplus {
+    applicationId "com.keyboard.plus.pinkhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pinktheme_keyboardplus {
+    applicationId "com.keyboard.plus.pinktheme"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pinky_keyboardplus {
+    applicationId "com.keyboard.plus.pinky"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_pumpkinhd_keyboardplus {
+    applicationId "com.keyboard.plus.pumpkinhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_purple_keyboardplus {
+    applicationId "com.keyboard.plus.purple"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_purplehd_keyboardplus {
+    applicationId "com.keyboard.plus.purplehd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_quick_keyboardplus {
+    applicationId "com.keyboard.plus.quick"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_qwerty_keyboardplus {
+    applicationId "com.keyboard.plus.qwerty"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_rainbow_keyboardplus {
+    applicationId "com.keyboard.plus.rainbow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_rasta_keyboardplus {
+    applicationId "com.keyboard.plus.rasta"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_rastahd_keyboardplus {
+    applicationId "com.keyboard.plus.rastahd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_red_keyboardplus {
+    applicationId "com.keyboard.plus.red"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_redtheme_keyboardplus {
+    applicationId "com.keyboard.plus.redtheme"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_retro_keyboardplus {
+    applicationId "com.keyboard.plus.retro"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_russian_keyboardplus {
+    applicationId "com.keyboard.plus.russian"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_sensations_keyboardplus {
+    applicationId "com.keyboard.plus.sensations"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_smartphone_keyboardplus {
+    applicationId "com.keyboard.plus.smartphone"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_softpink_keyboardplus {
+    applicationId "com.keyboard.plus.softpink"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_star_keyboardplus {
+    applicationId "com.keyboard.plus.star"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_steampunk_keyboardplus {
+    applicationId "com.keyboard.plus.steampunk"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_sugar_keyboardplus {
+    applicationId "com.keyboard.plus.sugar"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_summer_keyboardplus {
+    applicationId "com.keyboard.plus.summer"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_supercolors_keyboardplus {
+    applicationId "com.keyboard.plus.supercolors"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_teal_keyboardplus {
+    applicationId "com.keyboard.plus.teal"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_tealhd_keyboardplus {
+    applicationId "com.keyboard.plus.tealhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_theme_keyboardplus {
+    applicationId "com.keyboard.plus.theme"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_thick_keyboardplus {
+    applicationId "com.keyboard.plus.thick"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_type_keyboardplus {
+    applicationId "com.keyboard.plus.type"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_vibrations_keyboardplus {
+    applicationId "com.keyboard.plus.vibrations"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_vietnam_keyboardplus {
+    applicationId "com.keyboard.plus.vietnam"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_vintage_keyboardplus {
+    applicationId "com.keyboard.plus.vintage"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_violet_keyboardplus {
+    applicationId "com.keyboard.plus.violet"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_virus_keyboardplus {
+    applicationId "com.keyboard.plus.virus"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_weed_keyboardplus {
+    applicationId "com.keyboard.plus.weed"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_weedhd_keyboardplus {
+    applicationId "com.keyboard.plus.weedhd"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_white_keyboardplus {
+    applicationId "com.keyboard.plus.white"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_wood_keyboardplus {
+    applicationId "com.keyboard.plus.wood"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}
+tm_yellow_keyboardplus {
+    applicationId "com.keyboard.plus.yellow"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.tm
+     playAccountConfig = playAccountConfigs.ThemeMasterAccountConfig
+    flavorDimensions "default"
+}

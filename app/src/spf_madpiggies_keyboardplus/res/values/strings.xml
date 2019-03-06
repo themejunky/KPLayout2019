@@ -1,11 +1,0 @@
-<resources>
-    <string name="app_name">Mad Piggies Animated Keyboard</string>
-    <string name="theme_name">Mad Piggies Animated Keyboard</string>
-    <string name="keyboard_theme_name">Mad Piggies Animated Keyboard</string>
-    <string name="theme_description">Enjoy Mad Piggies Animated Keyboard</string>
-    <string name="theme_id">2fbea491-15f6-spf-madpiggies-06e21d9dba95</string>
-    <string name="theme_font">Chewy.ttf</string>
-    <string name="hash">3d1bcdc2b621dcf6a902b47e6b67721dca09eddb1b1c56e2ce658572cd2ba67e</string>
-<string name="mother_packagename">com.themejunky.keyboardplus</string>
- <string name="analytics_traker_id">UA-100888439-1</string>
-</resources>

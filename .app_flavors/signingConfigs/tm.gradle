@@ -1,0 +1,8 @@
+tm {
+    Properties props = new Properties()
+    props.load(new FileInputStream(file("../keystore/kplus3.properties.")))
+    storeFile file(props['key.store'])
+    storePassword props['key.store.password']
+    keyAlias props['key.alias']
+    keyPassword props['key.alias.password']
+}
