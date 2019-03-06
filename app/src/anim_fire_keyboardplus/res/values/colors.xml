@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quick_divider">#66dfdfdf</color>
+    <color name="quick_title">#FFFFFF</color>
+    <color name="quick_summary">#FFFFFF</color>
+    <color name="emoji_font">#FFFFFF</color>
+    <color name="quick_buttons">#FFFFFF</color>
+    <color name="grey">#1f816a</color>
+    <color name="actionbar_bg">#28ab7a</color>
+    <color name="background_splash">#FFFFFF</color>
+    <color name="splash_text_color">#000000</color>
+<color name="buton">#ffffff</color></resources>

@@ -58,7 +58,7 @@ android {
     }
 
     productFlavors {
-        anim_love_keyboardplus {
+        anim_blue_love_keyboardplus {
             applicationId "com.keyboardplus.animated.love"
             versionCode rootProject.ext.themeVersionCode
             versionName rootProject.ext.themeVersionName

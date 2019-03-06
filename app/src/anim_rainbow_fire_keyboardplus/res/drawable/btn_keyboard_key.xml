@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/apk/res-auto">
+
+
+    <item kplus:key_type_space_alt="true" android:state_pressed="true" android:drawable="@drawable/space_1_pressed" />
+    <item kplus:key_type_space_alt="true" android:drawable="@drawable/space_1_normal" />
+
+    <!-- TopNav keys. -->
+
+    <item kplus:key_type_topnav="true" android:state_pressed="true" android:drawable="@drawable/tab_down" />
+    <item kplus:key_type_topnav="true" android:state_selected="true" android:drawable="@drawable/tab_down" />
+    <item kplus:key_type_topnav="true" android:drawable="@drawable/tab_normal" />
+
+    <!-- TopRow keys. -->
+
+    <item kplus:key_type_toprow="true" android:state_pressed="true" android:drawable="@drawable/numeric_presseed" />
+    <item kplus:key_type_toprow="true" android:drawable="@drawable/numeric_normal" />
+
+
+    <!-- Functional keys. -->
+
+    <item kplus:key_type_function="true" android:state_pressed="true" android:drawable="@drawable/function_pressed" />
+    <item kplus:key_type_function="true" android:state_selected="true" android:drawable="@drawable/function_caps" />
+    <item kplus:key_type_function="true" android:drawable="@drawable/function_normal" />
+
+    <!-- Action keys. -->
+
+    <item kplus:key_type_action="true" android:state_pressed="true" android:drawable="@drawable/enter_pressed" />
+    <item kplus:key_type_action="true" android:drawable="@drawable/enter_normal" />
+
+    <!-- Normal keys. -->
+
+    <item android:state_pressed="true" android:drawable="@drawable/q_pressed" />
+    <item android:drawable="@drawable/q_normal" />
+</selector>
