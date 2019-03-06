@@ -108,7 +108,7 @@ android {
             applicationId "com.keyboardplus.themehd.dragonstar"
             versionCode 59
             versionName '5.9'
-            signingConfig signingConfigs.key_tm
+            signingConfig signingConfigs.spoofkey
         }
 
     }
