@@ -91,15 +91,23 @@ android {
             keyAlias props['key.alias']
             keyPassword props['key.alias.password']
         }
+        spoofkey {
+            Properties props = new Properties()
+            props.load(new FileInputStream(file("../keystore/spoofkey.properties")))
+            storeFile file(props['key.store'])
+            storePassword props['key.store.password']
+            keyAlias props['key.alias']
+            keyPassword props['key.alias.password']
+        }
     }
 
     productFlavors {
 
-        spf_hero_keyboardplus {
+        spf_dragonstar_keyboardplus {
             flavorDimensions "default"
-            applicationId "com.keyboardplus.themehd.hero"
-            versionCode 1
-            versionName '1.0'
+            applicationId "com.keyboardplus.themehd.dragonstar"
+            versionCode 59
+            versionName '5.9'
             signingConfig signingConfigs.key_tm
         }
 
