@@ -1,0 +1,76 @@
+{
+  "theme_name" : "Simple Blue",
+  "theme_preview" : "preview",
+  "theme_type" : "theme_default",
+  "keyboard_background" : "main_animation",
+  "theme_font_family" : "Chewy.ttf",
+
+  "icons" : {
+    "ic_mic": "mic_ic",
+    "ic_menu": "face_ic"
+  },
+
+  "key_background" : {
+    "key_numeric" : {
+      "default_state" : "numeric_normal",
+      "pressed_state" : "numeric_presseed"
+    },
+    "key_qwerty" : {
+      "default_state" : "q_normal",
+      "pressed_state" : "q_pressed"
+    },
+    "key_space" : {
+      "default_state" : "space_1_normal",
+      "pressed_state" : "space_1_pressed"
+    },
+    "key_functional" : {
+      "default_state" : "function_normal",
+      "pressed_state" : "function_pressed"
+    },
+    "key_symbols" : {
+      "default_state" : "function_normal",
+      "pressed_state" : "function_pressed"
+    },
+    "key_alt" : {
+      "default_state" : "q_normal",
+      "pressed_state" : "q_pressed"
+    }
+  },
+  "key_preview" : {
+    "background" : "popup",
+    "label_color" : "#ffffff"
+  },
+  "key_label_color" : {
+    "normal" : {
+      "default_state" : "#ffffff",
+      "pressed_state" : "#ffffff"
+    },
+    "nopreview" : {
+      "default_state" : "#ffffff",
+      "pressed_state" : "#ffffff"
+    }
+  },
+  "swipe_trail_color" : "#ffffff",
+  "symbol_space" : "dt_1_kbd_sym_space",
+  "symbol_delete" : "sym_keyboard_delete",
+  "symbol_action" : {
+    "done" : "sym_keyboard_done",
+    "go" : "sym_keyboard_done",
+    "enter" : "sym_keyboard_return",
+    "next" : "sym_keyboard_done",
+    "search" : "sym_keyboard_search",
+    "send" : "sym_keyboard_done"
+  },
+  "symbol_shift" : {
+    "default_state" : "sym_keyboard_shift",
+    "pressed_state" : "sym_keyboard_shift_locked",
+    "locked_state" :"sym_keyboard_shift_locked"
+  },
+  "key_alternatives" : {
+    "background" : "popup",
+    "label_color" : "#c90620"
+  },
+  "more_keys" : {
+    "background" : "popup"
+  }
+}

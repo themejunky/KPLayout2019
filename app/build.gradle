@@ -59,7 +59,49 @@ android {
 
     productFlavors {
         anim_blue_love_keyboardplus {
-            applicationId "com.keyboardplus.animated.love"
+            applicationId "com.keyboardplus.animated.bluelove"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_autumn_keyboardplus {
+            applicationId "com.keyboardplus.animated.autumn"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_bunny_keyboardplus {
+            applicationId "com.keyboardplus.animated.bunny"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_christmas_keyboardplus {
+            applicationId "com.keyboardplus.animated.christmas"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_cosmicrain_keyboardplus {
+            applicationId "com.keyboardplus.animated.cosmicrain"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_fire_keyboardplus {
+            applicationId "com.keyboardplus.animated.fire"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_kitty_keyboardplus {
+            applicationId "com.keyboardplus.animated.kitty"
             versionCode rootProject.ext.themeVersionCode
             versionName rootProject.ext.themeVersionName
             signingConfig signingConfigs.anim

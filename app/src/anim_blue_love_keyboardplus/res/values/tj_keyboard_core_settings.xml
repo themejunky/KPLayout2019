@@ -2,8 +2,8 @@
 <resources>
 
     <string name="core_menu_app_name">★Blue Love Animated Keyboard★</string>
-    <string name="activate_keyboard">Activate Blue Love Animated Keyboard</string>
-    <string name="switch_keyboard">Switch to Blue Love Animated Keyboard</string>
+    <string name="activate_keyboard">Activate Blue Love</string>
+    <string name="switch_keyboard">Switch to Blue Love</string>
     <string name="app_faq">http://thislooksgreat.net/keyboard-policy/</string>
     <!-- MENU -->
     <color name="core_menu_text_color">#3c3c3c</color>
