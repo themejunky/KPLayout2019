@@ -103,9 +103,44 @@ android {
 
     productFlavors {
 
-        spf_dragonstar_keyboardplus {
+        spf_battle_keyboardplus {
             flavorDimensions "default"
-            applicationId "com.keyboardplus.themehd.dragonstar"
+            applicationId "com.keyboardplus.themehd.battle"
+            versionCode 59
+            versionName '5.9'
+            signingConfig signingConfigs.spoofkey
+        }
+        spf_beauty_keyboardplus {
+            flavorDimensions "default"
+            applicationId "com.keyboardplus.themehd.beauty"
+            versionCode 59
+            versionName '5.9'
+            signingConfig signingConfigs.spoofkey
+        }
+        spf_carpool_keyboardplus {
+            flavorDimensions "default"
+            applicationId "com.keyboardplus.themehd.carpool"
+            versionCode 59
+            versionName '5.9'
+            signingConfig signingConfigs.spoofkey
+        }
+        spf_flash_keyboardplus {
+            flavorDimensions "default"
+            applicationId "com.keyboardplus.themehd.flash"
+            versionCode 59
+            versionName '5.9'
+            signingConfig signingConfigs.spoofkey
+        }
+        spf_hero_keyboardplus {
+            flavorDimensions "default"
+            applicationId "com.keyboardplus.themehd.hero"
+            versionCode 59
+            versionName '5.9'
+            signingConfig signingConfigs.spoofkey
+        }
+        spf_justice_keyboardplus {
+            flavorDimensions "default"
+            applicationId "com.keyboardplus.themehd.justice"
             versionCode 59
             versionName '5.9'
             signingConfig signingConfigs.spoofkey
