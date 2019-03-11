@@ -107,6 +107,34 @@ android {
             signingConfig signingConfigs.anim
             flavorDimensions "default"
         }
+        anim_love_hd_keyboardplus {
+            applicationId "com.keyboardplus.animated.lovehd"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_love_keyboardplus {
+            applicationId "com.keyboardplus.animated.love"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_neonfire_keyboardplus {
+            applicationId "com.keyboardplus.animated.neonfire"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_neon_keyboardplus {
+            applicationId "com.keyboardplus.animated.neon"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
 
     }
     }
