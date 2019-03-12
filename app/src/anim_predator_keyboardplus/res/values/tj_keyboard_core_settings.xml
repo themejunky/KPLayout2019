@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="core_menu_app_name">★Predator Animated Keyboard★</string>
+    <string name="activate_keyboard">Activate Predator</string>
+    <string name="switch_keyboard">Switch to Predator</string>
+    <string name="app_faq">http://thislooksgreat.net/keyboard-policy/</string>
+    <!-- MENU -->
+    <color name="core_menu_text_color">#3c3c3c</color>
+    <color name="core_menu_icon_color">#631aff</color>
+    <color name="core_menu_title_color">#ffffff</color>
+
+    <!--TOP BAR-->
+    <color name="core_hamburger_menu_color">#ffffff</color>
+    <color name="core_action_bar_text">#ffffff</color>
+    <color name="core_notification_line">#7011ff</color>
+
+
+    <color name="core_gradient_start">#20d8ff</color>
+    <color name="core_gradient_end">#7011ff</color>
+
+    <color name="core_tabview_default_text_color">#ffffff</color>
+    <color name="core_tabview_selected_text_color">#ffde00</color>
+    <color name="core_tabview_selected_line">#ffde00</color>
+
+    <!-- BOTTOM BAR-->
+    <color name="core_bottom_bar_bg_color">#7011ff</color>
+
+    <!-- Yellow badge -->
+    <color name="yellowbadge_background">#ffde00</color>
+    <color name="yellowbadge_textcolor">#3c3c3c</color>
+
+    <!-- Floating Button -->
+    <color name="floating_button_background">#7011ff</color>
+
+    <string name="appnext_interstitial">7507c3fe-17ed-46d3-bc2b-31c3802514ab</string>
+    <string name="facebook_interstitial">1735232666767897_2024849631139531</string>
+    <string name="admob_interstitial">ca-app-pub-5322508131338449/1502747926</string>
+</resources>

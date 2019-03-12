@@ -135,6 +135,34 @@ android {
             signingConfig signingConfigs.anim
             flavorDimensions "default"
         }
+        anim_predator_keyboardplus {
+            applicationId "com.keyboardplus.animated.predator"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_rainbow_fire_keyboardplus {
+            applicationId "com.keyboardplus.animated.rainbowfire"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_weather_keyboardplus {
+            applicationId "com.keyboardplus.animated.weather"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
+        anim_winter_paris_keyboardplus {
+            applicationId "com.keyboardplus.animated.winterparis"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.anim
+            flavorDimensions "default"
+        }
 
     }
     }
