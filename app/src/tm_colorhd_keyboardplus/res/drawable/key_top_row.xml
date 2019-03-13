@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/apk/res-auto">
+
+    <!-- TopRow keys. -->
+
+    <item kplus:key_type_toprow="true" android:state_pressed="true" android:drawable="@drawable/numeric_presseed" />
+    <item kplus:key_type_toprow="true" android:drawable="@drawable/numeric_normal" />
+
+</selector>

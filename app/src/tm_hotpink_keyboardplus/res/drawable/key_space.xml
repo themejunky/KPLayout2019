@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/apk/res-auto">
+
+
+    <item kplus:key_type_space_alt="true" android:state_pressed="true" android:drawable="@drawable/space_1_pressed" />
+    <item kplus:key_type_space_alt="true" android:drawable="@drawable/space_1_normal" />
+</selector>

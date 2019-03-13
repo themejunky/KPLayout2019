@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keyboard Plus Hot Pink</string>
+	<string name="keyboard_theme_name">Keyboard Plus Hot Pink</string>
+	<string name="keyboard_theme_description">Become instantly alluring with this Keyboard Plus Hot Pink theme!</string>
+    <string name="base_theme">Philosopher-Regular.ttf</string>
+    <string name="theme_id">rlk8e270-7a77-kplus3-hotpink-1x1190948a2304</string>
+    <string name="get">Please install Keyboard Plus to apply this theme</string>
+    <string name="hint_font">Oswald-Regular.ttf</string>
+    <string name="hint_font_numbers">Oswald-Regular.ttf</string>
+<string name="mobilecore">2DTXYB6HTIZDBSRZBN621I8HGRM5L</string>
+    <string name="hash">8c225ddbc30c9d4e50bf3b1ccfbed7cf39ec2963bc15db795f5de225c00e8521</string>
+<string name="mother_packagename">com.themejunky.keyboardplus</string>
+ <string name="analytics_traker_id">UA-100874031-1</string>
+</resources>
