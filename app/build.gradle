@@ -66,6 +66,13 @@ android {
             signingConfig signingConfigs.tm
             flavorDimensions "default"
         }
+        tm_black_keyboardplus {
+            applicationId "com.keyboard.plus.black"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
 
     }
     }
