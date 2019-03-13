@@ -2,8 +2,8 @@
   "theme_name" : "Simple Blue",
   "theme_preview" : "preview",
   "theme_type" : "theme_default",
-  "keyboard_background" : "big_2",
-  "theme_font_family" : "Chewy.ttf",
+  "keyboard_background" : "bg_1",
+  "theme_font_family" : "Varela-Regular.ttf",
 
   "icons" : {
     "ic_mic": "mic_ic",

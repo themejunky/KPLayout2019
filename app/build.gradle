@@ -59,7 +59,7 @@ android {
 
     productFlavors {
 
-        tm_app_keyboardplus {
+        tm_big_keyboardplus {
             applicationId "com.keyboard.plus.app"
             versionCode rootProject.ext.themeVersionCode
             versionName rootProject.ext.themeVersionName
@@ -68,6 +68,20 @@ android {
         }
         tm_black_keyboardplus {
             applicationId "com.keyboard.plus.black"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_colorhd_keyboardplus {
+            applicationId "com.keyboard.plus.colorhd"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_fast_keyboardplus {
+            applicationId "com.keyboard.plus.fast"
             versionCode rootProject.ext.themeVersionCode
             versionName rootProject.ext.themeVersionName
             signingConfig signingConfigs.tm
