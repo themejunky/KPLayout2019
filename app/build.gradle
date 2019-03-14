@@ -87,6 +87,62 @@ android {
             signingConfig signingConfigs.tm
             flavorDimensions "default"
         }
+        tm_fastest_keyboardplus {
+            applicationId "com.keyboard.plus.fastest"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_grey_keyboardplus {
+            applicationId "com.keyboard.plus.grey"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_hacker_keyboardplus {
+            applicationId "com.keyboard.plus.hacker"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_hotpink_keyboardplus {
+            applicationId "com.keyboard.plus.hotpink"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_keys_keyboardplus {
+            applicationId "com.keyboard.plus.keys"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_OSPhone_keyboardplus {
+            applicationId "com.keyboard.plus.OSPhone"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_qwerty_keyboardplus {
+            applicationId "com.keyboard.plus.qwerty"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
+        tm_softpink_keyboardplus {
+            applicationId "com.keyboard.plus.softpink"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.tm
+            flavorDimensions "default"
+        }
 
     }
     }

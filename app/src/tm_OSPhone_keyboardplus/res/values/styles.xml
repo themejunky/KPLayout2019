@@ -47,9 +47,9 @@
         <item name="keyNumbersSize">@dimen/key_numbers_size</item>
         <item name="keyTextSizeBig">@dimen/key_text_size_big</item>
         <item name="keyTextStyle">normal</item>
-        <item name="keyTextColor">#FF000000</item>
-        <item name="keyFunctionalTextColor">#FF000000</item>
-        <item name="keyNumbersTextColor">#FF000000</item>
+        <item name="keyTextColor">#000000</item>
+        <item name="keyFunctionalTextColor">#000000</item>
+        <item name="keyNumbersTextColor">#000000</item>
         <item name="textFontTheme">@string/base_theme</item>
         <item name="emojiFunctional">@drawable/btn_function</item>
         <item name="emojiBackground">@drawable/bg_2</item>
