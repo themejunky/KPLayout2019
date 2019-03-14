@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KeyboardThemes>
+	<KeyboardTheme
+        id="1000e270-rnta-key-goldglitter-118877948a22124"
+        nameResId="@string/keyboard_theme_name"
+        themeRes="@style/ExampleKeyboardPlusTheme"
+        popupThemeRes="@style/ExampleKeyboardPlusPopupTheme"
+        iconsThemeRes="@style/ExampleKeyboardPlusIconsTheme"
+        themeScreenshotIcon="@drawable/preview"
+        hintShowDefault="@bool/settings_default_show_hint_text_value"
+        description="@string/keyboard_theme_description"
+        index="1"/>
+</KeyboardThemes>

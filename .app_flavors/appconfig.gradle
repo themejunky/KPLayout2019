@@ -1,4 +1,4 @@
-AnimAccountConfig {
-    serviceAccountEmail = '836303155332-compute@developer.gserviceaccount.com'
-    pk12File = file('../p12keys/GooglePlayAndroidDeveloper-32a0103aa49a.p12')
+KeyAccountConfig {
+    serviceAccountEmail = 'jkupload01@api-9137259280845949187-370558.iam.gserviceaccount.com'
+    pk12File = file('../p12keys/GooglePlayAndroidDeveloper-ab204cd41ee9.p12')
 }

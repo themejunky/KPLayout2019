@@ -47,9 +47,9 @@ android {
 
 
     signingConfigs {
-        anim {
+        key {
             Properties props = new Properties()
-            props.load(new FileInputStream(file("../keystore/animthemes.properties")))
+            props.load(new FileInputStream(file("../keystore/kitchkey.properties")))
             storeFile file(props['key.store'])
             storePassword props['key.store.password']
             keyAlias props['key.alias']
@@ -58,109 +58,11 @@ android {
     }
 
     productFlavors {
-        anim_blue_love_keyboardplus {
-            applicationId "com.keyboardplus.animated.bluelove"
+        key_bling_keyboardplus {
+            applicationId "com.theme.keyboardplus.bling"
             versionCode rootProject.ext.themeVersionCode
             versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_autumn_keyboardplus {
-            applicationId "com.keyboardplus.animated.autumn"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_bunny_keyboardplus {
-            applicationId "com.keyboardplus.animated.bunny"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_christmas_keyboardplus {
-            applicationId "com.keyboardplus.animated.christmas"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_cosmicrain_keyboardplus {
-            applicationId "com.keyboardplus.animated.cosmicrain"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_fire_keyboardplus {
-            applicationId "com.keyboardplus.animated.fire"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_kitty_keyboardplus {
-            applicationId "com.keyboardplus.animated.kitty"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_love_hd_keyboardplus {
-            applicationId "com.keyboardplus.animated.lovehd"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_love_keyboardplus {
-            applicationId "com.keyboardplus.animated.love"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_neonfire_keyboardplus {
-            applicationId "com.keyboardplus.animated.neonfire"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_neon_keyboardplus {
-            applicationId "com.keyboardplus.animated.neon"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_predator_keyboardplus {
-            applicationId "com.keyboardplus.animated.predator"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_rainbow_fire_keyboardplus {
-            applicationId "com.keyboardplus.animated.rainbowfire"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_weather_keyboardplus {
-            applicationId "com.keyboardplus.animated.weather"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
-            flavorDimensions "default"
-        }
-        anim_winter_paris_keyboardplus {
-            applicationId "com.keyboardplus.animated.winterparis"
-            versionCode rootProject.ext.themeVersionCode
-            versionName rootProject.ext.themeVersionName
-            signingConfig signingConfigs.anim
+            signingConfig signingConfigs.key
             flavorDimensions "default"
         }
 

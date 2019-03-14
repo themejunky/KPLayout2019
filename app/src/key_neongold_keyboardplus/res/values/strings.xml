@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neon Gold Keyboard</string>
+	<string name="keyboard_theme_name">Neon Gold Keyboard</string>
+	<string name="keyboard_theme_description">Enjoy the new Neon Gold Keyboard!</string>
+    <string name="base_theme">Coda-Regular.ttf</string>
+    <string name="theme_id">1001e288-rnta-key-neongold-112121848a28824</string>
+    <string name="hint_font">Oswald-Regular.ttf</string>
+    <string name="hint_font_numbers">Oswald-Regular.ttf</string>
+    <string name="hash">cd11a4f754db5a80336a49fd545ab58dcfddfee5175facb79023054c9f0f4d3a</string><string name="mother_packagename">com.themejunky.keyboardplus</string>
+ <string name="analytics_traker_id">UA-101161777-1</string>
+</resources>

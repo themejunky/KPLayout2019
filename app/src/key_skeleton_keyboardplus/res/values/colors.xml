@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quick_divider">#1affe400</color>
+    <color name="quick_title">#fff494</color>
+    <color name="quick_summary">#ffe400</color>
+    <color name="emoji_font">#ffe400</color>
+    <color name="quick_buttons">#ffe400</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="default_key_height">65dip</dimen>
+    <dimen name="default_key_half_height">50dip</dimen>
+    <dimen name="default_key_tall_height">80dip</dimen>
+
+    <dimen name="key_text_size">27sp</dimen>
+    <dimen name="key_text_size_big">33sp</dimen>
+    <dimen name="lean_key_text_size">24sp</dimen>
+    <dimen name="key_label_text_size">19sp</dimen>
+
+    <dimen name="keyboard_name_text_size">14sp</dimen>
+
+    <integer name="condensing_precentage">50</integer>
+    <integer name="condensing_precentage_edge">30</integer>
+
+    <!-- Global content UI padding, bottom -->
+    <dimen name="global_content_padding_bottom">8dp</dimen>
+    <!-- Global content UI padding, sides -->
+    <dimen name="global_content_padding_side">64dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kplus="http://schemas.android.com/apk/res-auto">
+
+    <!-- TopNav keys. -->
+
+    <item kplus:key_type_topnav="true" android:state_pressed="true" android:drawable="@drawable/tab_down" />
+    <item kplus:key_type_topnav="true" android:state_selected="true" android:drawable="@drawable/tab_down" />
+    <item kplus:key_type_topnav="true" android:drawable="@drawable/tab_normal" />
+
+</selector>
